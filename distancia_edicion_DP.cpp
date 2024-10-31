@@ -1,6 +1,20 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//matrices de costos para remplazar y transponer una letra; matrices 26x26
+vector<vector<int>> matriz_costos_replace(26, vector<int>(26));
+vector<vector<int>> matriz_costos_transpose(26, vector<int>(26));
+
+//tabla eliminar e insertar una letra (26 letras de la 'a' a la 'z' abcederario ingles)
+vector<int> tabla_costos_delete(26);
+vector<int> tabla_costos_insert(26);
+
+
+// función para convertir un carácter a su índice en la matriz de costos
+int indice_caracter(char c) {
+    return c - 'a'; // asumimos que las letras son minúsculas // a=97 en ascii, b=98 b-a = 1
+}
+
 //-----------------------Funciones de costos-------------------------//
 // Calcula el costo de sustituir el carácter ‘a’ por ‘b’.
  // Parámetros:
@@ -8,9 +22,9 @@ using namespace std;
  //−b: carácter con el que se sustituye
  // Return: costo de sustituir ’a’ por ’b’
  int costo_sub(char a, char b) {
- int costo = (a == b) ? 0 : 1;
- // Implementación
- return costo;
+    if (a == b) return 0;
+    int costo = matriz_costos_replace[indice_caracter(a)][indice_caracter(b)];
+    return costo;
  }
 
 // Calcula el costo de insertar el carácter ‘b’.
@@ -18,9 +32,8 @@ using namespace std;
  //−b: carácter a insertar
  // Return: costo de insertar ’b’
  int costo_ins(char b) {
- int costo = 1;
- // Implementación
- return costo;
+    int costo = tabla_costos_insert[indice_caracter(b)];
+    return costo;
  }
 
 
@@ -29,9 +42,8 @@ using namespace std;
  //−a: carácter a eliminar
  // Return: costo de eliminar ’a’
  int costo_del(char a) {
- int costo = 1;
- // Implementación
- return costo;
+    int costo = tabla_costos_delete[indice_caracter(a)];
+    return costo;
  }
 
  // Calcula el costo de transponer los caracteres ’a’ y ’b’.
@@ -40,18 +52,19 @@ using namespace std;
  //−b: segundo carácter a transponer
  // Return: costo de transponer ’a’ y ’b’
  int costo_trans(char a, char b) {
- int costo = 1;
- // Implementación
- return costo;
+    int costo = matriz_costos_transpose[indice_caracter(a)][indice_caracter(b)]; //costo de transposición
+    return costo;
  }
-
 
 //-------------------------------------------------------------------//
 
 
-
-
-int calcular_distancia(const string &string1, const string &string2){
+// Calcula la distancia de edicion utilizando programacion dinamica
+ // Parámetros:
+ //−string1: primera palabra
+ //−string2: segunda palabra
+ // Return: la distancia de edicion 
+int calcular_distancia_dp(const string &string1, const string &string2){
     int tamano_palabra1 = string1.size(); 
     int tamano_palabra2 = string2.size();
 
@@ -99,25 +112,104 @@ int calcular_distancia(const string &string1, const string &string2){
                 && string1[fila_i - 1] == string2[col_j - 2] 
                 && string1[fila_i - 2] == string2[col_j - 1]){                                  //+ costo
                 matriz[fila_i][col_j] = min(matriz[fila_i][col_j],
-                                            matriz[fila_i - 2][col_j - 2] + costo_trans(string1[fila_i - 2], string2[col_j - 2])); // Transposición
+                                            matriz[fila_i - 2][col_j - 2] + costo_trans(string1[fila_i - 2], string1[fila_i - 1])); // Transposición string1[fila_i - 2], string2[col_j - 2]
             }
         }
     }
 
     //solo es print de la matriz
+    /*
     for(int fila_i=0; fila_i <= tamano_palabra1; ++fila_i){
         for(int columna_j = 0; columna_j <=tamano_palabra2; ++columna_j){
             cout << matriz[fila_i][columna_j] << ' ';
         }
         cout << endl;
     }
-
+    */
     return matriz[tamano_palabra1][tamano_palabra2];
 }
 
 
+
+
+
+//---------------- Funciones para cargar los datos de los .txt en las matrices y tablas -----------------------//
+//cargar los costos de inserción desde cost_insert.txt
+ // Parámetros:
+ // − filename: nombre del archivo 
+ // Return: funcion void, carga tabla_cost_insert
+void cargar_cost_insert(const string &filename) {
+    ifstream archivo(filename);
+    if (!archivo) {
+        cerr << "Error al abrir " << filename << endl;
+        return;
+    }
+    for (int i = 0; i < 26; ++i) {
+        archivo >> tabla_costos_insert[i];
+    }
+    archivo.close();
+}
+
+//cargar los costos de eliminación desde cost_delete.txt
+ // Parámetros:
+ // − filename: nombre del archivo 
+ // Return: funcion void, carga tabla_cost_delete
+void cargar_cost_delete(const string &filename) {
+    ifstream archivo(filename);
+    if (!archivo) {
+        cerr << "Error al abrir " << filename << endl;
+        return;
+    }
+    for (int i = 0; i < 26; ++i) {
+        archivo >> tabla_costos_delete[i];
+    }
+    archivo.close();
+}
+
+//cargar los costos de sustitución desde cost_replace.txt
+ // Parámetros:
+ // − filename: nombre del archivo 
+ // Return: funcion void, carga matriz_costos_replace
+void cargar_cost_replace(const string &filename) {
+    ifstream archivo(filename);
+    if (!archivo) {
+        cerr << "Error al abrir " << filename << endl;
+        return;
+    }
+    for (int i = 0; i < 26; ++i) {
+        for (int j = 0; j < 26; ++j) {
+            archivo >> matriz_costos_replace[i][j];
+        }
+    }
+    archivo.close();
+}
+
+//cargar los costos de transposición desde cost_transpose.txt
+ // Parámetros:
+ // − filename: nombre del archivo 
+ // Return: funcion void, carga matriz_costos_transpose
+void cargar_cost_transpose(const string &filename) {
+    ifstream archivo(filename);
+    if (!archivo) {
+        cerr << "Error al abrir " << filename << endl;
+        return;
+    }
+    for (int i = 0; i < 26; ++i) {
+        for (int j = 0; j < 26; ++j) {
+            archivo >> matriz_costos_transpose[i][j];
+        }
+    }
+    archivo.close();
+}
+//------------------------------------------------------------------------------------------------------------//
+
 int main(){
-    //ios_base::sync_with_stdio(0); cin.tie(0);
+    //cargar costos de las matrices y tablas;
+    cargar_cost_insert("cost_insert.txt");
+    cargar_cost_delete("cost_delete.txt");
+    cargar_cost_replace("cost_replace.txt");
+    cargar_cost_transpose("cost_transpose.txt");
+
 
     string string1, string2;
     cout << "Ingrese string1: ";
@@ -125,8 +217,8 @@ int main(){
     cout << "Ingrese String2: ";
     cin >> string2;
 
-    int dis_min = calcular_distancia(string1, string2);
-    cout << "\nLa distancia minima es: " << dis_min << endl;
+    int dis_min = calcular_distancia_dp(string1, string2);
+    cout << "\nLa distancia minima con DP es: " << dis_min << endl;
 
 
     return 0;

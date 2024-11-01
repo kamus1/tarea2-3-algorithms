@@ -9,50 +9,69 @@ vector<vector<int>> matriz_costos_transpose(26, vector<int>(26));
 vector<int> tabla_costos_delete(26);
 vector<int> tabla_costos_insert(26);
 
+//variable para usar las tablas o matrices, si es false usa costos default
+bool usar_tablas = false;
 
 // función para convertir un carácter a su índice en la matriz de costos
 int indice_caracter(char c) {
     return c - 'a'; // asumimos que las letras son minúsculas 
 }
 
+
 //-----------------------Funciones de costos-------------------------//
 // Calcula el costo de sustituir el carácter ‘a’ por ‘b’.
  // Parámetros:
- // − a: carácter original
- // − b: carácter con el que se sustituye
+ //−a: carácter original
+ //−b: carácter con el que se sustituye
  // Return: costo de sustituir ’a’ por ’b’
  int costo_sub(char a, char b) {
-    if (a == b) return 0;
-    int costo = matriz_costos_replace[indice_caracter(a)][indice_caracter(b)];
+    int costo = 2;  // costo default
+    if(!usar_tablas){
+        if (a == b) return 0; // si son iguales 0, esto es default si no se usan las tablas
+    }
+    if(usar_tablas){
+        costo = matriz_costos_replace[indice_caracter(a)][indice_caracter(b)];
+    }
+
     return costo;
  }
 
 // Calcula el costo de insertar el carácter ‘b’.
  // Parámetros:
- // − b: carácter a insertar
+ //−b: carácter a insertar
  // Return: costo de insertar ’b’
  int costo_ins(char b) {
-    int costo = tabla_costos_insert[indice_caracter(b)];
+    int costo = 1;  // costo default
+    if(usar_tablas){
+        costo = tabla_costos_insert[indice_caracter(b)];
+    }
+
     return costo;
  }
 
 
 // Calcula el costo de eliminar el carácter ’a ’.
  // Parámetros:
- // − a: carácter a eliminar
+ //−a: carácter a eliminar
  // Return: costo de eliminar ’a’
  int costo_del(char a) {
-    int costo = tabla_costos_delete[indice_caracter(a)];
+    int costo = 1;  // costo default
+    if(usar_tablas){
+        costo = tabla_costos_delete[indice_caracter(a)];
+    }
     return costo;
  }
 
  // Calcula el costo de transponer los caracteres ’a’ y ’b’.
  // Parámetros:
- // − a: primer carácter a transponer
- // − b: segundo carácter a transponer
+ //−a: primer carácter a transponer
+ //−b: segundo carácter a transponer
  // Return: costo de transponer ’a’ y ’b’
  int costo_trans(char a, char b) {
-    int costo = matriz_costos_transpose[indice_caracter(a)][indice_caracter(b)]; //costo de transposición
+    int costo = 1; // costo default
+    if(usar_tablas){
+        costo = matriz_costos_transpose[indice_caracter(a)][indice_caracter(b)]; //costo de transposición
+    }
     return costo;
  }
 

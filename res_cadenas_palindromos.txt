@@ -1,0 +1,62 @@
+Palabras: lxoxl, lxxol
+Distancia mínima de edición: 1
+Tiempo de ejecución (ms): 0.005711
+Operaciones necesarias para la distancia mínima de edición:
+Transposición en posiciones 2 y 3: o <-> x | Costo: 1
+--------------------------------------
+
+Palabras: tyqcwwcqyt, ywcqqtytwc
+Distancia mínima de edición: 8
+Tiempo de ejecución (ms): 0.009548
+Operaciones necesarias para la distancia mínima de edición:
+Eliminación en posición 0 de t | Costo: 1
+Sustitución en posición 2: q -> w | Costo: 1
+Eliminación en posición 4 de w | Costo: 1
+Sustitución en posición 5: w -> q | Costo: 1
+Sustitución en posición 6: c -> q | Costo: 1
+Sustitución en posición 7: q -> t | Costo: 1
+Inserción en posición 8 de w | Costo: 1
+Inserción en posición 9 de c | Costo: 1
+--------------------------------------
+
+Palabras: vrxrldqhqdlrxrv, drrhvrlxlrvdqxq
+Distancia mínima de edición: 12
+Tiempo de ejecución (ms): 0.014968
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de d | Costo: 1
+Sustitución en posición 0: v -> r | Costo: 1
+Inserción en posición 3 de h | Costo: 1
+Sustitución en posición 2: x -> v | Costo: 1
+Sustitución en posición 5: d -> x | Costo: 1
+Sustitución en posición 6: q -> l | Costo: 1
+Sustitución en posición 7: h -> r | Costo: 1
+Sustitución en posición 8: q -> v | Costo: 1
+Eliminación en posición 10 de l | Costo: 1
+Sustitución en posición 11: r -> q | Costo: 1
+Eliminación en posición 13 de r | Costo: 1
+Sustitución en posición 14: v -> q | Costo: 1
+--------------------------------------
+
+Palabras: iaubpnjameemajnpbuai, binmauuaajjbniemeapp
+Distancia mínima de edición: 17
+Tiempo de ejecución (ms): 0.024496
+Operaciones necesarias para la distancia mínima de edición:
+Eliminación en posición 0 de i | Costo: 1
+Eliminación en posición 1 de a | Costo: 1
+Eliminación en posición 2 de u | Costo: 1
+Sustitución en posición 4: p -> i | Costo: 1
+Sustitución en posición 6: j -> m | Costo: 1
+Sustitución en posición 8: m -> u | Costo: 1
+Sustitución en posición 9: e -> u | Costo: 1
+Sustitución en posición 10: e -> a | Costo: 1
+Sustitución en posición 11: m -> a | Costo: 1
+Sustitución en posición 12: a -> j | Costo: 1
+Inserción en posición 11 de b | Costo: 1
+Inserción en posición 13 de i | Costo: 1
+Sustitución en posición 15: p -> e | Costo: 1
+Sustitución en posición 16: b -> m | Costo: 1
+Sustitución en posición 17: u -> e | Costo: 1
+Inserción en posición 18 de p | Costo: 1
+Sustitución en posición 19: i -> p | Costo: 1
+--------------------------------------
+

@@ -1,0 +1,94 @@
+Palabras: , js
+Longitudes: S1=0 S2=2 S1+S2=2
+Distancia mínima de edición: 2
+Tiempo de ejecución (segundos): 3.787e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: j | Costo: 1
+Inserción: s | Costo: 1
+--------------------------------------
+
+Palabras: q, ydhq
+Longitudes: S1=1 S2=4 S1+S2=5
+Distancia mínima de edición: 3
+Tiempo de ejecución (segundos): 1.2774e-05
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: y | Costo: 1
+Inserción: d | Costo: 1
+Inserción: h | Costo: 1
+--------------------------------------
+
+Palabras: , pbhhnv
+Longitudes: S1=0 S2=6 S1+S2=6
+Distancia mínima de edición: 6
+Tiempo de ejecución (segundos): 2.564e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: p | Costo: 1
+Inserción: b | Costo: 1
+Inserción: h | Costo: 1
+Inserción: h | Costo: 1
+Inserción: n | Costo: 1
+Inserción: v | Costo: 1
+--------------------------------------
+
+Palabras: qspkh, gqspkbhp
+Longitudes: S1=5 S2=8 S1+S2=13
+Distancia mínima de edición: 3
+Tiempo de ejecución (segundos): 0.0131072
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: p | Costo: 1
+Inserción: b | Costo: 1
+Inserción: g | Costo: 1
+--------------------------------------
+
+Palabras: nbcv, nbcvytyfcl
+Longitudes: S1=4 S2=10 S1+S2=14
+Distancia mínima de edición: 6
+Tiempo de ejecución (segundos): 0.009153
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: l | Costo: 1
+Inserción: c | Costo: 1
+Inserción: f | Costo: 1
+Inserción: y | Costo: 1
+Inserción: t | Costo: 1
+Inserción: y | Costo: 1
+--------------------------------------
+
+Palabras: jsn, ratjsdnzsdgn
+Longitudes: S1=3 S2=12 S1+S2=15
+Distancia mínima de edición: 9
+Tiempo de ejecución (segundos): 0.00379855
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: g | Costo: 1
+Inserción: d | Costo: 1
+Inserción: z | Costo: 1
+Inserción: n | Costo: 1
+Inserción: d | Costo: 1
+Inserción: s | Costo: 1
+Inserción: r | Costo: 1
+Inserción: a | Costo: 1
+Inserción: t | Costo: 1
+--------------------------------------
+
+Palabras: pipsrtzqaj, kipipstrtzqnaj
+Longitudes: S1=10 S2=14 S1+S2=24
+Distancia mínima de edición: 4
+Tiempo de ejecución (segundos): 167.68
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: n | Costo: 1
+Inserción: t | Costo: 1
+Inserción: k | Costo: 1
+Inserción: i | Costo: 1
+--------------------------------------
+
+Palabras: gvliafvknuc, gvlnilvzafvknluc
+Longitudes: S1=11 S2=16 S1+S2=27
+Distancia mínima de edición: 5
+Tiempo de ejecución (segundos): 1734.81
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: l | Costo: 1
+Inserción: z | Costo: 1
+Inserción: v | Costo: 1
+Inserción: l | Costo: 1
+Inserción: n | Costo: 1
+--------------------------------------
+

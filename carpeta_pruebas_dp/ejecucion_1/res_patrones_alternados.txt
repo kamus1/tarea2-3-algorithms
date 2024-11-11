@@ -1,0 +1,253 @@
+Palabras: x, x
+Longitudes: S1=1 S2=1 S1+S2=2
+Distancia mínima de edición: 0
+Tiempo de ejecución (segundos): 2.124e-06
+Operaciones necesarias para la distancia mínima de edición:
+--------------------------------------
+
+Palabras: xy, xy
+Longitudes: S1=2 S2=2 S1+S2=4
+Distancia mínima de edición: 0
+Tiempo de ejecución (segundos): 1.513e-06
+Operaciones necesarias para la distancia mínima de edición:
+--------------------------------------
+
+Palabras: yzx, xyz
+Longitudes: S1=3 S2=3 S1+S2=6
+Distancia mínima de edición: 2
+Tiempo de ejecución (segundos): 1.883e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de x | Costo: 1
+Eliminación en posición 2 de x | Costo: 1
+--------------------------------------
+
+Palabras: xzyx, xyzx
+Longitudes: S1=4 S2=4 S1+S2=8
+Distancia mínima de edición: 1
+Tiempo de ejecución (segundos): 2.635e-06
+Operaciones necesarias para la distancia mínima de edición:
+Transposición en posiciones 1 y 2: z <-> y | Costo: 1
+--------------------------------------
+
+Palabras: xyzxy, xyzxy
+Longitudes: S1=5 S2=5 S1+S2=10
+Distancia mínima de edición: 0
+Tiempo de ejecución (segundos): 3.196e-06
+Operaciones necesarias para la distancia mínima de edición:
+--------------------------------------
+
+Palabras: zxxyzy, xyzxyz
+Longitudes: S1=6 S2=6 S1+S2=12
+Distancia mínima de edición: 4
+Tiempo de ejecución (segundos): 4.108e-06
+Operaciones necesarias para la distancia mínima de edición:
+Eliminación en posición 0 de z | Costo: 1
+Eliminación en posición 1 de x | Costo: 1
+Inserción en posición 3 de x | Costo: 1
+Inserción en posición 5 de z | Costo: 1
+--------------------------------------
+
+Palabras: xxzyzyx, xyzxyzx
+Longitudes: S1=7 S2=7 S1+S2=14
+Distancia mínima de edición: 3
+Tiempo de ejecución (segundos): 5.079e-06
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución en posición 1: x -> y | Costo: 1
+Inserción en posición 3 de x | Costo: 1
+Eliminación en posición 5 de y | Costo: 1
+--------------------------------------
+
+Palabras: xxyyzyzx, xyzxyzxy
+Longitudes: S1=8 S2=8 S1+S2=16
+Distancia mínima de edición: 4
+Tiempo de ejecución (segundos): 5.821e-06
+Operaciones necesarias para la distancia mínima de edición:
+Eliminación en posición 0 de x | Costo: 1
+Sustitución en posición 3: y -> z | Costo: 1
+Sustitución en posición 4: z -> x | Costo: 1
+Inserción en posición 7 de y | Costo: 1
+--------------------------------------
+
+Palabras: yzyxzxzxy, xyzxyzxyz
+Longitudes: S1=9 S2=9 S1+S2=18
+Distancia mínima de edición: 5
+Tiempo de ejecución (segundos): 7.063e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de x | Costo: 1
+Transposición en posiciones 2 y 3: y <-> x | Costo: 1
+Eliminación en posición 6 de z | Costo: 1
+Sustitución en posición 7: x -> y | Costo: 1
+Sustitución en posición 8: y -> z | Costo: 1
+--------------------------------------
+
+Palabras: xzxyzxyxzy, xyzxyzxyzx
+Longitudes: S1=10 S2=10 S1+S2=20
+Distancia mínima de edición: 3
+Tiempo de ejecución (segundos): 8.436e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 1 de y | Costo: 1
+Eliminación en posición 7 de x | Costo: 1
+Sustitución en posición 9: y -> x | Costo: 1
+--------------------------------------
+
+Palabras: zxyzyxyxyzx, xyzxyzxyzxy
+Longitudes: S1=11 S2=11 S1+S2=22
+Distancia mínima de edición: 4
+Tiempo de ejecución (segundos): 9.447e-06
+Operaciones necesarias para la distancia mínima de edición:
+Eliminación en posición 0 de z | Costo: 1
+Transposición en posiciones 4 y 5: y <-> x | Costo: 1
+Sustitución en posición 6: y -> z | Costo: 1
+Inserción en posición 10 de y | Costo: 1
+--------------------------------------
+
+Palabras: yzxzyxyxyzxz, xyzxyzxyzxyz
+Longitudes: S1=12 S2=12 S1+S2=24
+Distancia mínima de edición: 5
+Tiempo de ejecución (segundos): 1.083e-05
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de x | Costo: 1
+Eliminación en posición 3 de z | Costo: 1
+Eliminación en posición 5 de x | Costo: 1
+Sustitución en posición 6: y -> z | Costo: 1
+Inserción en posición 10 de y | Costo: 1
+--------------------------------------
+
+Palabras: zxxzyxxzyzxyy, xyzxyzxyzxyzx
+Longitudes: S1=13 S2=13 S1+S2=26
+Distancia mínima de edición: 6
+Tiempo de ejecución (segundos): 1.2393e-05
+Operaciones necesarias para la distancia mínima de edición:
+Eliminación en posición 0 de z | Costo: 1
+Sustitución en posición 2: x -> y | Costo: 1
+Transposición en posiciones 4 y 5: y <-> x | Costo: 1
+Transposición en posiciones 6 y 7: x <-> z | Costo: 1
+Inserción en posición 11 de z | Costo: 1
+Sustitución en posición 12: y -> x | Costo: 1
+--------------------------------------
+
+Palabras: yyyxzyzxxxyxzz, xyzxyzxyzxyzxy
+Longitudes: S1=14 S2=14 S1+S2=28
+Distancia mínima de edición: 7
+Tiempo de ejecución (segundos): 1.4517e-05
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución en posición 0: y -> x | Costo: 1
+Sustitución en posición 2: y -> z | Costo: 1
+Eliminación en posición 4 de z | Costo: 1
+Inserción en posición 7 de y | Costo: 1
+Sustitución en posición 8: x -> z | Costo: 1
+Transposición en posiciones 11 y 12: x <-> z | Costo: 1
+Sustitución en posición 13: z -> y | Costo: 1
+--------------------------------------
+
+Palabras: zxyzxxzxyxyyzzy, xyzxyzxyzxyzxyz
+Longitudes: S1=15 S2=15 S1+S2=30
+Distancia mínima de edición: 6
+Tiempo de ejecución (segundos): 1.5408e-05
+Operaciones necesarias para la distancia mínima de edición:
+Eliminación en posición 0 de z | Costo: 1
+Sustitución en posición 5: x -> y | Costo: 1
+Sustitución en posición 9: x -> z | Costo: 1
+Sustitución en posición 10: y -> x | Costo: 1
+Sustitución en posición 13: z -> x | Costo: 1
+Inserción en posición 14 de z | Costo: 1
+--------------------------------------
+
+Palabras: xzzxzyxyyyzxyxxz, xyzxyzxyzxyzxyzx
+Longitudes: S1=16 S2=16 S1+S2=32
+Distancia mínima de edición: 6
+Tiempo de ejecución (segundos): 1.7593e-05
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución en posición 1: z -> y | Costo: 1
+Transposición en posiciones 4 y 5: z <-> y | Costo: 1
+Inserción en posición 8 de z | Costo: 1
+Sustitución en posición 8: y -> x | Costo: 1
+Sustitución en posición 13: x -> z | Costo: 1
+Eliminación en posición 15 de z | Costo: 1
+--------------------------------------
+
+Palabras: xzzxyxzyyzyxxzxyy, xyzxyzxyzxyzxyzxy
+Longitudes: S1=17 S2=17 S1+S2=34
+Distancia mínima de edición: 7
+Tiempo de ejecución (segundos): 2.1149e-05
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución en posición 1: z -> y | Costo: 1
+Eliminación en posición 5 de x | Costo: 1
+Sustitución en posición 7: y -> x | Costo: 1
+Eliminación en posición 10 de y | Costo: 1
+Sustitución en posición 12: x -> y | Costo: 1
+Inserción en posición 14 de z | Costo: 1
+Inserción en posición 15 de x | Costo: 1
+--------------------------------------
+
+Palabras: yyxzxzxxyyzyxyxzzz, xyzxyzxyzxyzxyzxyz
+Longitudes: S1=18 S2=18 S1+S2=36
+Distancia mínima de edición: 9
+Tiempo de ejecución (segundos): 2.18e-05
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución en posición 0: y -> x | Costo: 1
+Eliminación en posición 2 de x | Costo: 1
+Sustitución en posición 5: z -> y | Costo: 1
+Sustitución en posición 6: x -> z | Costo: 1
+Sustitución en posición 9: y -> z | Costo: 1
+Sustitución en posición 10: z -> x | Costo: 1
+Inserción en posición 11 de z | Costo: 1
+Transposición en posiciones 14 y 15: x <-> z | Costo: 1
+Sustitución en posición 16: z -> y | Costo: 1
+--------------------------------------
+
+Palabras: xyyzzyxxxxyyzzzxxzy, xyzxyzxyzxyzxyzxyzx
+Longitudes: S1=19 S2=19 S1+S2=38
+Distancia mínima de edición: 10
+Tiempo de ejecución (segundos): 2.3084e-05
+Operaciones necesarias para la distancia mínima de edición:
+Eliminación en posición 1 de y | Costo: 1
+Sustitución en posición 4: z -> x | Costo: 1
+Inserción en posición 5 de z | Costo: 1
+Sustitución en posición 7: x -> y | Costo: 1
+Sustitución en posición 8: x -> z | Costo: 1
+Sustitución en posición 11: y -> z | Costo: 1
+Sustitución en posición 12: z -> x | Costo: 1
+Sustitución en posición 13: z -> y | Costo: 1
+Sustitución en posición 16: x -> y | Costo: 1
+Sustitución en posición 18: y -> x | Costo: 1
+--------------------------------------
+
+Palabras: yzxyyxxyzzxzxzxyyyxz, xyzxyzxyzxyzxyzxyzxy
+Longitudes: S1=20 S2=20 S1+S2=40
+Distancia mínima de edición: 9
+Tiempo de ejecución (segundos): 2.5367e-05
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de x | Costo: 1
+Eliminación en posición 3 de y | Costo: 1
+Sustitución en posición 5: x -> z | Costo: 1
+Sustitución en posición 9: z -> x | Costo: 1
+Sustitución en posición 10: x -> y | Costo: 1
+Inserción en posición 13 de y | Costo: 1
+Eliminación en posición 15 de y | Costo: 1
+Sustitución en posición 17: y -> z | Costo: 1
+Sustitución en posición 19: z -> y | Costo: 1
+--------------------------------------
+
+Resumen de Longitudes y Tiempos de Ejecución:
+longitud_S1 + longitudS2, tiempo_ejecucion[seg]
+( 2, 2.124e-06 )
+( 4, 1.513e-06 )
+( 6, 1.883e-06 )
+( 8, 2.635e-06 )
+( 10, 3.196e-06 )
+( 12, 4.108e-06 )
+( 14, 5.079e-06 )
+( 16, 5.821e-06 )
+( 18, 7.063e-06 )
+( 20, 8.436e-06 )
+( 22, 9.447e-06 )
+( 24, 1.083e-05 )
+( 26, 1.2393e-05 )
+( 28, 1.4517e-05 )
+( 30, 1.5408e-05 )
+( 32, 1.7593e-05 )
+( 34, 2.1149e-05 )
+( 36, 2.18e-05 )
+( 38, 2.3084e-05 )
+( 40, 2.5367e-05 )

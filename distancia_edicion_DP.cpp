@@ -1,7 +1,10 @@
 #include <bits/stdc++.h>
 #include <chrono>
+#include <sys/stat.h> // Para crear directorios en sistemas UNIX
+#include <sys/types.h>
 using namespace std;
 using namespace chrono;
+
 
 //matrices de costos para remplazar y transponer una letra; matrices 26x26
 vector<vector<int>> matriz_costos_replace(26, vector<int>(26));
@@ -12,7 +15,7 @@ vector<int> tabla_costos_delete(26);
 vector<int> tabla_costos_insert(26);
 
 //variable para usar las tablas o matrices, si es false usa costos default
-bool usar_tablas = false;
+bool usar_tablas = true;
 
 
 // función para convertir un carácter a su índice en la matriz de costos
@@ -275,10 +278,47 @@ void cargar_cost_transpose(const string &filename) {
 
 
 
+// Función para crear un directorio si no existe
+bool crearDirectorio(const string &path) {
+    // 0777 es el permiso para el directorio (lectura/escritura/ejecución para todos los usuarios)
+    #if defined(_WIN32)
+        return _mkdir(path.c_str()) == 0 || errno == EEXIST;
+    #else 
+        return mkdir(path.c_str(), 0777) == 0 || errno == EEXIST;
+    #endif
+}
+string obtenerRutaEjecucion() {
+    string ruta_base = "carpeta_pruebas_dp";
+    if (!crearDirectorio(ruta_base)) {
+        cerr << "Error al crear la carpeta base." << endl;
+        return "";
+    }
 
-//función para procesar un archivo de entrada y calcular la distancia de edición entre cada par de palabras
-void procesarArchivo(const string &archivoEntrada, const string &archivoSalida) {
+    int numero_ejecucion = 1;
+    string ruta_ejecucion;
+    while (true) {
+        ruta_ejecucion = ruta_base + "/ejecucion_" + to_string(numero_ejecucion);
+        struct stat info;
+        // Verificamos si la carpeta ya existe
+        if (stat(ruta_ejecucion.c_str(), &info) != 0) {
+            // Si no existe, la creamos
+            if (crearDirectorio(ruta_ejecucion)) {
+                break;
+            } else {
+                cerr << "Error al crear la carpeta de ejecución: " << ruta_ejecucion << endl;
+                return "";
+            }
+        } else {
+            // Si existe, incrementamos el número de ejecución
+            numero_ejecucion++;
+        }
+    }
+    return ruta_ejecucion;
+}
+
+void procesarArchivo(const string &archivoEntrada, const string &rutaEjecucion, const string &nombreArchivoSalida) {
     ifstream archivo(archivoEntrada);
+    string archivoSalida = rutaEjecucion + "/" + nombreArchivoSalida;
     ofstream archivoResultado(archivoSalida);
     if (!archivo) {
         cerr << "Error al abrir el archivo de entrada: " << archivoEntrada << endl;
@@ -290,27 +330,30 @@ void procesarArchivo(const string &archivoEntrada, const string &archivoSalida) 
     }
 
     string linea;
+    vector<tuple<int, int, double>> resumenResultados;
+
     while (getline(archivo, linea)) {
         istringstream iss(linea);
         string string1, string2;
         iss >> string1 >> string2;
 
-        //verificación para convertir "0" en un string vacío
         if (string1 == "0") string1 = "";
         if (string2 == "0") string2 = "";
 
-        //if (string1.empty() || string2.empty()) continue;  // Ignorar líneas vacías o incompletas
+        int longitudS1 = string1.size();
+        int longitudS2 = string2.size();
 
-        //medir el tiempo de ejecución de calcular_distancia_dp
         auto inicio = high_resolution_clock::now();
         int distancia = calcular_distancia_dp(string1, string2);
         auto fin = high_resolution_clock::now();
-        auto duracion = duration<double, milli>(fin - inicio);
+        //auto duracion = duration<double, milli>(fin - inicio);
+        auto duracion = duration<double>(fin - inicio);
+        double tiempo_ejecucion = duracion.count();
 
-        //guardar los resultados en el archivo de salida
         archivoResultado << "Palabras: " << string1 << ", " << string2 << endl;
+        archivoResultado << "Longitudes: S1=" << longitudS1 << " S2=" << longitudS2 << " S1+S2=" << longitudS1 + longitudS2 << endl;
         archivoResultado << "Distancia mínima de edición: " << distancia << endl;
-        archivoResultado << "Tiempo de ejecución (ms): " << duracion.count() << endl;
+        archivoResultado << "Tiempo de ejecución (segundos): " << tiempo_ejecucion << endl;
 
         vector<string> operaciones = trazar_ruta_optima(matriz_ruta, string1, string2);
         archivoResultado << "Operaciones necesarias para la distancia mínima de edición:\n";
@@ -319,6 +362,15 @@ void procesarArchivo(const string &archivoEntrada, const string &archivoSalida) 
         }
 
         archivoResultado << "--------------------------------------" << endl << endl;
+        resumenResultados.push_back(make_tuple(longitudS1, longitudS2, tiempo_ejecucion));
+    }
+
+    // Imprimir el resumen al final del archivo de salida
+    archivoResultado << "Resumen de Longitudes y Tiempos de Ejecución:\n";
+    archivoResultado << "longitud_S1 + longitudS2, " << "tiempo_ejecucion[seg]"<< endl;
+    for (const auto &resumen : resumenResultados) {
+        archivoResultado << "( "<< get<0>(resumen)+get<1>(resumen) << ", "
+                         << get<2>(resumen) << " )"<< endl;
     }
 
     archivo.close();
@@ -327,24 +379,66 @@ void procesarArchivo(const string &archivoEntrada, const string &archivoSalida) 
 
 
 
-
-int main(){
-    //cargar costos de las matrices y tablas
-    cargar_cost_insert("cost_insert.txt");
-    cargar_cost_delete("cost_delete.txt");
+int main() {
+    //cargar los costos de los archivos .txt
+    cargar_cost_insert("cost_delete.txt");
+    cargar_cost_delete("cost_insert.txt");
     cargar_cost_replace("cost_replace.txt");
     cargar_cost_transpose("cost_transpose.txt");
 
-    //procesar diferentes archivos de datasets
-    procesarArchivo("datasets/dataset_cadena_vacia.txt", "res_cadena_vacia.txt");
-    procesarArchivo("datasets/dataset_cadenas_aleatorias.txt", "res_cadena_aleatorias.txt");
-    procesarArchivo("datasets/dataset_palindromos.txt", "res_cadenas_palindromos.txt");
-    procesarArchivo("datasets/dataset_patrones_alternados.txt", "res_patrones_alternados.txt");
-    procesarArchivo("datasets/dataset_transposicion.txt", "res_transposicion.txt");
-    procesarArchivo("datasets/dataset_repeticiones.txt", "res_cadenas_con_repeticiones.txt");
+    //variable para usar archivos o entrada estandar
+    int usar_entrada_estandar = false;
+
+    if(usar_entrada_estandar){
+        //transformar S1 en S2
+        string S1 = "olaaa";
+        string S2 = "hola";
+
+        auto inicio = high_resolution_clock::now();
+        int distancia = calcular_distancia_dp(S1, S2);
+        auto fin = high_resolution_clock::now();
 
 
-    cout << "El procesamiento ha finalizado y los resultados se han guardado en los archivos correspondientes." << endl;
+        auto duracion = duration<double>(fin - inicio);
+        double tiempo_ejecucion = duracion.count();
+
+        cout << "Distancia minima utilizando dp: " << distancia << endl;
+        cout << "Tiempo[seg]: " << tiempo_ejecucion << endl;
+
+        vector<string> operaciones = trazar_ruta_optima(matriz_ruta, S1, S2);
+        cout << "Operaciones necesarias para la distancia mínima de edición:\n";
+        for (string operacion : operaciones) {
+            cout << operacion << endl;
+        }
+
+    }else{
+        // Crear la carpeta para la ejecución actual
+        string rutaEjecucion = obtenerRutaEjecucion();
+        if (rutaEjecucion.empty()) {
+            cerr << "Error al crear la estructura de carpetas." << endl;
+            return 1;
+        }
+
+        // Archivos de entrada y nombres de archivos de salida
+        vector<pair<string, string>> archivos = {
+            {"datasets/dataset_cadena_vacia.txt", "res_cadena_vacia.txt"},
+            {"datasets/dataset_cadenas_aleatorias.txt", "res_cadena_aleatorias.txt"},
+            {"datasets/dataset_palindromos.txt", "res_cadenas_palindromos.txt"},
+            {"datasets/dataset_patrones_alternados.txt", "res_patrones_alternados.txt"},
+            {"datasets/dataset_transposicion.txt", "res_transposicion.txt"},
+            {"datasets/dataset_repeticiones.txt", "res_cadenas_con_repeticiones.txt"},
+            {"datasets/dataset_con_gaps.txt", "res_cadenas_con_gaps.txt"}
+        };
+
+
+        //procesar cada archivo y guardar el resultado en la carpeta de ejecución
+        for (const auto &par : archivos) {
+            procesarArchivo(par.first, rutaEjecucion, par.second);
+        }
+
+        cout << "El procesamiento ha finalizado y los resultados se han guardado en la carpeta " << rutaEjecucion << "." << endl;
+
+    }
 
     return 0;
 }

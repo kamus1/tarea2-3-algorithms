@@ -1,0 +1,12 @@
+yx xy
+xyxz xyzx
+yyzxzx xyzxyz
+yyxyxxzz xyzxyzxy
+xxzyxyzzyx xyzxyzxyzx
+yzxyyxxyzzxz xyzxyzxyzxyz
+zyxzyyxyxyzxxz xyzxyzxyzxyzxy
+yzxzzyxyxzxyzyxx xyzxyzxyzxyzxyzx
+xyxxzzyyxxyzzxzyzy xyzxyzxyzxyzxyzxyz
+zxzxyxzyzyxyxyzzyxxy xyzxyzxyzxyzxyzxyzxy
+yxzxxzxxyyyyzzzyyzxxxz xyzxyzxyzxyzxyzxyzxyzx
+xyxzzzyyzxzyxxyxzzyyxyxz xyzxyzxyzxyzxyzxyzxyzxyz

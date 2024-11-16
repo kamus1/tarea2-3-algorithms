@@ -93,9 +93,9 @@ void generarCasosPruebaConRepeticiones(int longitudMaxima, int incremento, const
     }
 
     for (int longitudActual = incremento; longitudActual <= longitudMaxima; longitudActual += incremento) {
-        // Generar una cadena con caracteres repetidos
+        //generar una cadena con caracteres repetidos
         string palabra2 = generarCadenaConRepeticiones(longitudActual);
-        // Desordenar la cadena para generar la segunda palabra
+        //desordenar la cadena para generar la segunda palabra
         string palabra1 = palabra2;
         random_shuffle(palabra1.begin(), palabra1.end());
         archivo << palabra1 << " " << palabra2 << "\n";
@@ -202,8 +202,8 @@ void generarCasosPruebaConOriginalYGaps(int longitudMaxima, int incremento, int 
 int main() {
     srand(static_cast<unsigned int>(time(0)));
 
-    int longitudMaxima = 20;
-    int incremento = 1;
+    int longitudMaxima = 5000;
+    int incremento = 250;
 
     string archivoAleatorios = "dataset_cadenas_aleatorias.txt";
     string archivoConVacio = "dataset_cadena_vacia.txt";
@@ -220,8 +220,8 @@ int main() {
     generarCasosPruebaPalindromos(longitudMaxima, incremento, archivoPalindromos);
     generarCasosPruebaConPatrones(longitudMaxima, incremento, archivoPatrones);
 
-    int numGaps = 3;
-    int tamanoMaxGap = 3;
+    int numGaps = 6;
+    int tamanoMaxGap = 4;
     generarCasosPruebaConOriginalYGaps(longitudMaxima, incremento, numGaps, tamanoMaxGap, archivoConGaps);
 
     return 0;

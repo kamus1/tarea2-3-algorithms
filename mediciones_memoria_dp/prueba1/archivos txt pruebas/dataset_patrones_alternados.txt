@@ -1,0 +1,13 @@
+x x
+xy xy
+yzx xyz
+xzyx xyzx
+xyzxy xyzxy
+zxxyzy xyzxyz
+xxzyzyx xyzxyzx
+xxyyzyzx xyzxyzxy
+yzyxzxzxy xyzxyzxyz
+xzxyzxyxzy xyzxyzxyzx
+zxyzyxyxyzx xyzxyzxyzxy
+yzxzyxyxyzxz xyzxyzxyzxyz
+zxxzyxxzyzxyy xyzxyzxyzxyzx

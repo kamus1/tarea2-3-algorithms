@@ -1,0 +1,155 @@
+Palabras: x, x
+Longitudes: S1=1 S2=1 S1+S2=2
+Distancia mínima de edición: 0
+Tiempo de ejecución (segundos): 9.668e-06
+Operaciones necesarias para la distancia mínima de edición:
+--------------------------------------
+
+Palabras: rr, rr
+Longitudes: S1=2 S2=2 S1+S2=4
+Distancia mínima de edición: 0
+Tiempo de ejecución (segundos): 2.718e-05
+Operaciones necesarias para la distancia mínima de edición:
+--------------------------------------
+
+Palabras: pmm, mpm
+Longitudes: S1=3 S2=3 S1+S2=6
+Distancia mínima de edición: 1
+Tiempo de ejecución (segundos): 0.000125154
+Operaciones necesarias para la distancia mínima de edición:
+Transposición: p <-> m | Costo: 1
+--------------------------------------
+
+Palabras: bttb, tbbt
+Longitudes: S1=4 S2=4 S1+S2=8
+Distancia mínima de edición: 2
+Tiempo de ejecución (segundos): 0.000692726
+Operaciones necesarias para la distancia mínima de edición:
+Transposición: t <-> b | Costo: 1
+Transposición: b <-> t | Costo: 1
+--------------------------------------
+
+Palabras: jpppp, ppjpp
+Longitudes: S1=5 S2=5 S1+S2=10
+Distancia mínima de edición: 2
+Tiempo de ejecución (segundos): 0.00167647
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución: p -> j | Costo: 1
+Sustitución: j -> p | Costo: 1
+--------------------------------------
+
+Palabras: uuafaf, afuufa
+Longitudes: S1=6 S2=6 S1+S2=12
+Distancia mínima de edición: 4
+Tiempo de ejecución (segundos): 0.00896246
+Operaciones necesarias para la distancia mínima de edición:
+Eliminación: f | Costo: 1
+Sustitución: a -> u | Costo: 1
+Sustitución: u -> f | Costo: 1
+Inserción: a | Costo: 1
+--------------------------------------
+
+Palabras: ddtjtjd, djtdtjd
+Longitudes: S1=7 S2=7 S1+S2=14
+Distancia mínima de edición: 2
+Tiempo de ejecución (segundos): 0.0431371
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución: j -> d | Costo: 1
+Sustitución: d -> j | Costo: 1
+--------------------------------------
+
+Palabras: toxloxtl, lxottoxl
+Longitudes: S1=8 S2=8 S1+S2=16
+Distancia mínima de edición: 5
+Tiempo de ejecución (segundos): 0.266629
+Operaciones necesarias para la distancia mínima de edición:
+Eliminación: t | Costo: 1
+Sustitución: l -> t | Costo: 1
+Sustitución: x -> t | Costo: 1
+Sustitución: t -> x | Costo: 1
+Inserción: l | Costo: 1
+--------------------------------------
+
+Palabras: nknrmtrmt, mnrtktrnm
+Longitudes: S1=9 S2=9 S1+S2=18
+Distancia mínima de edición: 6
+Tiempo de ejecución (segundos): 1.4202
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución: t -> m | Costo: 1
+Sustitución: m -> n | Costo: 1
+Sustitución: m -> k | Costo: 1
+Inserción: t | Costo: 1
+Sustitución: k -> m | Costo: 1
+Eliminación: n | Costo: 1
+--------------------------------------
+
+Palabras: immminzmzn, nmmziizmmn
+Longitudes: S1=10 S2=10 S1+S2=20
+Distancia mínima de edición: 4
+Tiempo de ejecución (segundos): 8.23452
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución: z -> m | Costo: 1
+Sustitución: n -> i | Costo: 1
+Sustitución: m -> z | Costo: 1
+Sustitución: i -> n | Costo: 1
+--------------------------------------
+
+Palabras: qftddudduqf, dqduftfudqd
+Longitudes: S1=11 S2=11 S1+S2=22
+Distancia mínima de edición: 8
+Tiempo de ejecución (segundos): 44.388
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución: f -> d | Costo: 1
+Eliminación: u | Costo: 1
+Eliminación: d | Costo: 1
+Sustitución: d -> f | Costo: 1
+Eliminación: d | Costo: 1
+Inserción: u | Costo: 1
+Inserción: d | Costo: 1
+Inserción: d | Costo: 1
+--------------------------------------
+
+Palabras: lvdqdvkqelke, elvqkddkqvle
+Longitudes: S1=12 S2=12 S1+S2=24
+Distancia mínima de edición: 6
+Tiempo de ejecución (segundos): 245.094
+Operaciones necesarias para la distancia mínima de edición:
+Eliminación: k | Costo: 1
+Sustitución: e -> v | Costo: 1
+Sustitución: v -> d | Costo: 1
+Sustitución: q -> k | Costo: 1
+Sustitución: d -> q | Costo: 1
+Inserción: e | Costo: 1
+--------------------------------------
+
+Palabras: hxthvvvtqwqwx, xhvqtwvwtqvhx
+Longitudes: S1=13 S2=13 S1+S2=26
+Distancia mínima de edición: 9
+Tiempo de ejecución (segundos): 1338.72
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución: w -> h | Costo: 1
+Sustitución: q -> v | Costo: 1
+Eliminación: w | Costo: 1
+Sustitución: v -> w | Costo: 1
+Sustitución: v -> w | Costo: 1
+Sustitución: h -> t | Costo: 1
+Sustitución: t -> q | Costo: 1
+Sustitución: x -> v | Costo: 1
+Inserción: x | Costo: 1
+--------------------------------------
+
+Resumen de Longitudes y Tiempos de Ejecucion:
+longitud_S1 + longitudS2, tiempo_ejecucion[seg]
+( 2, 9.668e-06 )
+( 4, 2.718e-05 )
+( 6, 0.000125154 )
+( 8, 0.000692726 )
+( 10, 0.00167647 )
+( 12, 0.00896246 )
+( 14, 0.0431371 )
+( 16, 0.266629 )
+( 18, 1.4202 )
+( 20, 8.23452 )
+( 22, 44.388 )
+( 24, 245.094 )
+( 26, 1338.72 )

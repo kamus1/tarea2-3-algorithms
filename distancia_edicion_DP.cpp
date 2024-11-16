@@ -366,7 +366,7 @@ void procesarArchivo(const string &archivoEntrada, const string &rutaEjecucion, 
     }
 
     // Imprimir el resumen al final del archivo de salida
-    archivoResultado << "Resumen de Longitudes y Tiempos de Ejecución:\n";
+    archivoResultado << "Resumen de Longitudes y Tiempos de Ejecucion:\n";
     archivoResultado << "longitud_S1 + longitudS2, " << "tiempo_ejecucion[seg]"<< endl;
     for (const auto &resumen : resumenResultados) {
         archivoResultado << "( "<< get<0>(resumen)+get<1>(resumen) << ", "

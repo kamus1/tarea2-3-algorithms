@@ -1,0 +1,147 @@
+Palabras: j, j
+Longitudes: S1=1 S2=1 S1+S2=2
+Distancia mínima de edición: 0
+Tiempo de ejecución (segundos): 5.51e-06
+Operaciones necesarias para la distancia mínima de edición:
+--------------------------------------
+
+Palabras: bm, mb
+Longitudes: S1=2 S2=2 S1+S2=4
+Distancia mínima de edición: 1
+Tiempo de ejecución (segundos): 1.3014e-05
+Operaciones necesarias para la distancia mínima de edición:
+Transposición: b <-> m | Costo: 1
+--------------------------------------
+
+Palabras: dpo, pdo
+Longitudes: S1=3 S2=3 S1+S2=6
+Distancia mínima de edición: 1
+Tiempo de ejecución (segundos): 5.9681e-05
+Operaciones necesarias para la distancia mínima de edición:
+Transposición: d <-> p | Costo: 1
+--------------------------------------
+
+Palabras: fdnv, dfvn
+Longitudes: S1=4 S2=4 S1+S2=8
+Distancia mínima de edición: 2
+Tiempo de ejecución (segundos): 0.000319357
+Operaciones necesarias para la distancia mínima de edición:
+Transposición: n <-> v | Costo: 1
+Transposición: f <-> d | Costo: 1
+--------------------------------------
+
+Palabras: fpreo, pfero
+Longitudes: S1=5 S2=5 S1+S2=10
+Distancia mínima de edición: 2
+Tiempo de ejecución (segundos): 0.00159718
+Operaciones necesarias para la distancia mínima de edición:
+Transposición: r <-> e | Costo: 1
+Transposición: f <-> p | Costo: 1
+--------------------------------------
+
+Palabras: wgseiu, gwesui
+Longitudes: S1=6 S2=6 S1+S2=12
+Distancia mínima de edición: 3
+Tiempo de ejecución (segundos): 0.00899517
+Operaciones necesarias para la distancia mínima de edición:
+Transposición: i <-> u | Costo: 1
+Transposición: s <-> e | Costo: 1
+Transposición: w <-> g | Costo: 1
+--------------------------------------
+
+Palabras: iukqacj, uiqkcaj
+Longitudes: S1=7 S2=7 S1+S2=14
+Distancia mínima de edición: 3
+Tiempo de ejecución (segundos): 0.0467923
+Operaciones necesarias para la distancia mínima de edición:
+Transposición: a <-> c | Costo: 1
+Transposición: k <-> q | Costo: 1
+Transposición: i <-> u | Costo: 1
+--------------------------------------
+
+Palabras: lpampxdr, plmaxprd
+Longitudes: S1=8 S2=8 S1+S2=16
+Distancia mínima de edición: 4
+Tiempo de ejecución (segundos): 0.271304
+Operaciones necesarias para la distancia mínima de edición:
+Transposición: d <-> r | Costo: 1
+Transposición: p <-> x | Costo: 1
+Transposición: a <-> m | Costo: 1
+Transposición: l <-> p | Costo: 1
+--------------------------------------
+
+Palabras: vfcizkohs, fvickzhos
+Longitudes: S1=9 S2=9 S1+S2=18
+Distancia mínima de edición: 4
+Tiempo de ejecución (segundos): 1.61474
+Operaciones necesarias para la distancia mínima de edición:
+Transposición: o <-> h | Costo: 1
+Transposición: z <-> k | Costo: 1
+Transposición: c <-> i | Costo: 1
+Transposición: v <-> f | Costo: 1
+--------------------------------------
+
+Palabras: uyeplolndt, yupeolnltd
+Longitudes: S1=10 S2=10 S1+S2=20
+Distancia mínima de edición: 5
+Tiempo de ejecución (segundos): 8.80747
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: d | Costo: 1
+Sustitución: d -> l | Costo: 1
+Sustitución: l -> e | Costo: 1
+Sustitución: e -> u | Costo: 1
+Eliminación: u | Costo: 1
+--------------------------------------
+
+Palabras: xvfgrootiri, vxgfortorii
+Longitudes: S1=11 S2=11 S1+S2=22
+Distancia mínima de edición: 5
+Tiempo de ejecución (segundos): 49.8281
+Operaciones necesarias para la distancia mínima de edición:
+Transposición: i <-> r | Costo: 1
+Transposición: o <-> t | Costo: 1
+Transposición: r <-> o | Costo: 1
+Transposición: f <-> g | Costo: 1
+Transposición: x <-> v | Costo: 1
+--------------------------------------
+
+Palabras: quefpscfzdza, uqfespfcdzaz
+Longitudes: S1=12 S2=12 S1+S2=24
+Distancia mínima de edición: 6
+Tiempo de ejecución (segundos): 286.676
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: z | Costo: 1
+Sustitución: z -> c | Costo: 1
+Sustitución: c -> p | Costo: 1
+Sustitución: p -> e | Costo: 1
+Sustitución: e -> q | Costo: 1
+Eliminación: q | Costo: 1
+--------------------------------------
+
+Palabras: eqboztzwwwbfk, qeobtzwzwwfbk
+Longitudes: S1=13 S2=13 S1+S2=26
+Distancia mínima de edición: 5
+Tiempo de ejecución (segundos): 1550.4
+Operaciones necesarias para la distancia mínima de edición:
+Transposición: b <-> f | Costo: 1
+Inserción: z | Costo: 1
+Sustitución: z -> b | Costo: 1
+Sustitución: b -> e | Costo: 1
+Eliminación: e | Costo: 1
+--------------------------------------
+
+Resumen de Longitudes y Tiempos de Ejecución:
+longitud_S1 + longitudS2, tiempo_ejecucion[seg]
+( 2, 5.51e-06 )
+( 4, 1.3014e-05 )
+( 6, 5.9681e-05 )
+( 8, 0.000319357 )
+( 10, 0.00159718 )
+( 12, 0.00899517 )
+( 14, 0.0467923 )
+( 16, 0.271304 )
+( 18, 1.61474 )
+( 20, 8.80747 )
+( 22, 49.8281 )
+( 24, 286.676 )
+( 26, 1550.4 )

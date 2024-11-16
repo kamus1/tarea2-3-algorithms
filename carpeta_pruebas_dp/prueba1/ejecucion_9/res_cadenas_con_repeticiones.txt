@@ -1,0 +1,165 @@
+Palabras: l, l
+Longitudes: S1=1 S2=1 S1+S2=2
+Distancia mínima de edición: 0
+Tiempo de ejecución (segundos): 1.864e-06
+Operaciones necesarias para la distancia mínima de edición:
+--------------------------------------
+
+Palabras: ff, ff
+Longitudes: S1=2 S2=2 S1+S2=4
+Distancia mínima de edición: 0
+Tiempo de ejecución (segundos): 1.573e-06
+Operaciones necesarias para la distancia mínima de edición:
+--------------------------------------
+
+Palabras: uxk, kxu
+Longitudes: S1=3 S2=3 S1+S2=6
+Distancia mínima de edición: 2
+Tiempo de ejecución (segundos): 1.973e-06
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución en posición 0: u -> k | Costo: 1
+Sustitución en posición 2: k -> u | Costo: 1
+--------------------------------------
+
+Palabras: kdlk, kkld
+Longitudes: S1=4 S2=4 S1+S2=8
+Distancia mínima de edición: 2
+Tiempo de ejecución (segundos): 2.675e-06
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución en posición 1: d -> k | Costo: 1
+Sustitución en posición 3: k -> d | Costo: 1
+--------------------------------------
+
+Palabras: wxwwx, wwwxx
+Longitudes: S1=5 S2=5 S1+S2=10
+Distancia mínima de edición: 2
+Tiempo de ejecución (segundos): 3.367e-06
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución en posición 1: x -> w | Costo: 1
+Sustitución en posición 3: w -> x | Costo: 1
+--------------------------------------
+
+Palabras: vuuvuq, vvuuuq
+Longitudes: S1=6 S2=6 S1+S2=12
+Distancia mínima de edición: 2
+Tiempo de ejecución (segundos): 4.168e-06
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución en posición 1: u -> v | Costo: 1
+Sustitución en posición 3: v -> u | Costo: 1
+--------------------------------------
+
+Palabras: jqjhhhp, qpjjhhh
+Longitudes: S1=7 S2=7 S1+S2=14
+Distancia mínima de edición: 4
+Tiempo de ejecución (segundos): 5e-06
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución en posición 0: j -> q | Costo: 1
+Sustitución en posición 1: q -> p | Costo: 1
+Sustitución en posición 3: h -> j | Costo: 1
+Sustitución en posición 6: p -> h | Costo: 1
+--------------------------------------
+
+Palabras: mgkomgko, mmggookk
+Longitudes: S1=8 S2=8 S1+S2=16
+Distancia mínima de edición: 5
+Tiempo de ejecución (segundos): 5.961e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de m | Costo: 1
+Sustitución en posición 2: k -> g | Costo: 1
+Eliminación en posición 4 de m | Costo: 1
+Sustitución en posición 5: g -> o | Costo: 1
+Sustitución en posición 7: o -> k | Costo: 1
+--------------------------------------
+
+Palabras: lbnojoluj, booulljjn
+Longitudes: S1=9 S2=9 S1+S2=18
+Distancia mínima de edición: 6
+Tiempo de ejecución (segundos): 6.823e-06
+Operaciones necesarias para la distancia mínima de edición:
+Eliminación en posición 0 de l | Costo: 1
+Sustitución en posición 2: n -> o | Costo: 1
+Sustitución en posición 4: j -> u | Costo: 1
+Sustitución en posición 5: o -> l | Costo: 1
+Sustitución en posición 7: u -> j | Costo: 1
+Inserción en posición 8 de n | Costo: 1
+--------------------------------------
+
+Palabras: nnpgnngyan, apggnnnnny
+Longitudes: S1=10 S2=10 S1+S2=20
+Distancia mínima de edición: 7
+Tiempo de ejecución (segundos): 8.035e-06
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución en posición 0: n -> a | Costo: 1
+Sustitución en posición 1: n -> p | Costo: 1
+Sustitución en posición 2: p -> g | Costo: 1
+Sustitución en posición 6: g -> n | Costo: 1
+Sustitución en posición 7: y -> n | Costo: 1
+Sustitución en posición 8: a -> n | Costo: 1
+Sustitución en posición 9: n -> y | Costo: 1
+--------------------------------------
+
+Palabras: zrtrzcwrrsp, scrrrrtpwzz
+Longitudes: S1=11 S2=11 S1+S2=22
+Distancia mínima de edición: 10
+Tiempo de ejecución (segundos): 9.147e-06
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución en posición 0: z -> s | Costo: 1
+Sustitución en posición 1: r -> c | Costo: 1
+Sustitución en posición 2: t -> r | Costo: 1
+Sustitución en posición 4: z -> r | Costo: 1
+Sustitución en posición 5: c -> r | Costo: 1
+Sustitución en posición 6: w -> t | Costo: 1
+Sustitución en posición 7: r -> p | Costo: 1
+Sustitución en posición 8: r -> w | Costo: 1
+Sustitución en posición 9: s -> z | Costo: 1
+Sustitución en posición 10: p -> z | Costo: 1
+--------------------------------------
+
+Palabras: pvpspkmspyyy, mpkssyyypppv
+Longitudes: S1=12 S2=12 S1+S2=24
+Distancia mínima de edición: 10
+Tiempo de ejecución (segundos): 1.063e-05
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución en posición 0: p -> m | Costo: 1
+Sustitución en posición 1: v -> p | Costo: 1
+Sustitución en posición 2: p -> k | Costo: 1
+Sustitución en posición 4: p -> s | Costo: 1
+Sustitución en posición 5: k -> y | Costo: 1
+Sustitución en posición 6: m -> y | Costo: 1
+Sustitución en posición 7: s -> y | Costo: 1
+Sustitución en posición 9: y -> p | Costo: 1
+Sustitución en posición 10: y -> p | Costo: 1
+Sustitución en posición 11: y -> v | Costo: 1
+--------------------------------------
+
+Palabras: vkkctkkttkcvg, gvkkkkkccvttt
+Longitudes: S1=13 S2=13 S1+S2=26
+Distancia mínima de edición: 9
+Tiempo de ejecución (segundos): 1.2203e-05
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de g | Costo: 1
+Eliminación en posición 3 de c | Costo: 1
+Sustitución en posición 4: t -> k | Costo: 1
+Sustitución en posición 7: t -> c | Costo: 1
+Sustitución en posición 8: t -> c | Costo: 1
+Sustitución en posición 9: k -> v | Costo: 1
+Sustitución en posición 10: c -> t | Costo: 1
+Sustitución en posición 11: v -> t | Costo: 1
+Sustitución en posición 12: g -> t | Costo: 1
+--------------------------------------
+
+Resumen de Longitudes y Tiempos de Ejecucion:
+longitud_S1 + longitudS2, tiempo_ejecucion[seg]
+( 2, 1.864e-06 )
+( 4, 1.573e-06 )
+( 6, 1.973e-06 )
+( 8, 2.675e-06 )
+( 10, 3.367e-06 )
+( 12, 4.168e-06 )
+( 14, 5e-06 )
+( 16, 5.961e-06 )
+( 18, 6.823e-06 )
+( 20, 8.035e-06 )
+( 22, 9.147e-06 )
+( 24, 1.063e-05 )
+( 26, 1.2203e-05 )

@@ -1,0 +1,1142 @@
+Palabras: , e
+Longitudes: S1=0 S2=1 S1+S2=1
+Distancia mínima de edición: 1
+Tiempo de ejecución (segundos): 5.871e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: e | Costo: 1
+--------------------------------------
+
+Palabras: , kc
+Longitudes: S1=0 S2=2 S1+S2=2
+Distancia mínima de edición: 2
+Tiempo de ejecución (segundos): 3.306e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: k | Costo: 1
+Inserción: c | Costo: 1
+--------------------------------------
+
+Palabras: , csm
+Longitudes: S1=0 S2=3 S1+S2=3
+Distancia mínima de edición: 3
+Tiempo de ejecución (segundos): 1.694e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: c | Costo: 1
+Inserción: s | Costo: 1
+Inserción: m | Costo: 1
+--------------------------------------
+
+Palabras: , umju
+Longitudes: S1=0 S2=4 S1+S2=4
+Distancia mínima de edición: 4
+Tiempo de ejecución (segundos): 1.803e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: u | Costo: 1
+Inserción: m | Costo: 1
+Inserción: j | Costo: 1
+Inserción: u | Costo: 1
+--------------------------------------
+
+Palabras: , evlqp
+Longitudes: S1=0 S2=5 S1+S2=5
+Distancia mínima de edición: 5
+Tiempo de ejecución (segundos): 2.315e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: e | Costo: 1
+Inserción: v | Costo: 1
+Inserción: l | Costo: 1
+Inserción: q | Costo: 1
+Inserción: p | Costo: 1
+--------------------------------------
+
+Palabras: , xeqfgi
+Longitudes: S1=0 S2=6 S1+S2=6
+Distancia mínima de edición: 6
+Tiempo de ejecución (segundos): 2.555e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: x | Costo: 1
+Inserción: e | Costo: 1
+Inserción: q | Costo: 1
+Inserción: f | Costo: 1
+Inserción: g | Costo: 1
+Inserción: i | Costo: 1
+--------------------------------------
+
+Palabras: , jxoufpk
+Longitudes: S1=0 S2=7 S1+S2=7
+Distancia mínima de edición: 7
+Tiempo de ejecución (segundos): 2.795e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: j | Costo: 1
+Inserción: x | Costo: 1
+Inserción: o | Costo: 1
+Inserción: u | Costo: 1
+Inserción: f | Costo: 1
+Inserción: p | Costo: 1
+Inserción: k | Costo: 1
+--------------------------------------
+
+Palabras: , voicymet
+Longitudes: S1=0 S2=8 S1+S2=8
+Distancia mínima de edición: 8
+Tiempo de ejecución (segundos): 2.925e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: v | Costo: 1
+Inserción: o | Costo: 1
+Inserción: i | Costo: 1
+Inserción: c | Costo: 1
+Inserción: y | Costo: 1
+Inserción: m | Costo: 1
+Inserción: e | Costo: 1
+Inserción: t | Costo: 1
+--------------------------------------
+
+Palabras: , yzfkvlfhd
+Longitudes: S1=0 S2=9 S1+S2=9
+Distancia mínima de edición: 9
+Tiempo de ejecución (segundos): 3.476e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: y | Costo: 1
+Inserción: z | Costo: 1
+Inserción: f | Costo: 1
+Inserción: k | Costo: 1
+Inserción: v | Costo: 1
+Inserción: l | Costo: 1
+Inserción: f | Costo: 1
+Inserción: h | Costo: 1
+Inserción: d | Costo: 1
+--------------------------------------
+
+Palabras: , wgjmlqvunl
+Longitudes: S1=0 S2=10 S1+S2=10
+Distancia mínima de edición: 10
+Tiempo de ejecución (segundos): 3.697e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: w | Costo: 1
+Inserción: g | Costo: 1
+Inserción: j | Costo: 1
+Inserción: m | Costo: 1
+Inserción: l | Costo: 1
+Inserción: q | Costo: 1
+Inserción: v | Costo: 1
+Inserción: u | Costo: 1
+Inserción: n | Costo: 1
+Inserción: l | Costo: 1
+--------------------------------------
+
+Palabras: , qucasrkurxy
+Longitudes: S1=0 S2=11 S1+S2=11
+Distancia mínima de edición: 11
+Tiempo de ejecución (segundos): 7.855e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: q | Costo: 1
+Inserción: u | Costo: 1
+Inserción: c | Costo: 1
+Inserción: a | Costo: 1
+Inserción: s | Costo: 1
+Inserción: r | Costo: 1
+Inserción: k | Costo: 1
+Inserción: u | Costo: 1
+Inserción: r | Costo: 1
+Inserción: x | Costo: 1
+Inserción: y | Costo: 1
+--------------------------------------
+
+Palabras: , kxzrhvemejim
+Longitudes: S1=0 S2=12 S1+S2=12
+Distancia mínima de edición: 12
+Tiempo de ejecución (segundos): 4.147e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: k | Costo: 1
+Inserción: x | Costo: 1
+Inserción: z | Costo: 1
+Inserción: r | Costo: 1
+Inserción: h | Costo: 1
+Inserción: v | Costo: 1
+Inserción: e | Costo: 1
+Inserción: m | Costo: 1
+Inserción: e | Costo: 1
+Inserción: j | Costo: 1
+Inserción: i | Costo: 1
+Inserción: m | Costo: 1
+--------------------------------------
+
+Palabras: , txzluvahmvjon
+Longitudes: S1=0 S2=13 S1+S2=13
+Distancia mínima de edición: 13
+Tiempo de ejecución (segundos): 4.368e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: t | Costo: 1
+Inserción: x | Costo: 1
+Inserción: z | Costo: 1
+Inserción: l | Costo: 1
+Inserción: u | Costo: 1
+Inserción: v | Costo: 1
+Inserción: a | Costo: 1
+Inserción: h | Costo: 1
+Inserción: m | Costo: 1
+Inserción: v | Costo: 1
+Inserción: j | Costo: 1
+Inserción: o | Costo: 1
+Inserción: n | Costo: 1
+--------------------------------------
+
+Palabras: , azjuwjetjydger
+Longitudes: S1=0 S2=14 S1+S2=14
+Distancia mínima de edición: 14
+Tiempo de ejecución (segundos): 4.618e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: a | Costo: 1
+Inserción: z | Costo: 1
+Inserción: j | Costo: 1
+Inserción: u | Costo: 1
+Inserción: w | Costo: 1
+Inserción: j | Costo: 1
+Inserción: e | Costo: 1
+Inserción: t | Costo: 1
+Inserción: j | Costo: 1
+Inserción: y | Costo: 1
+Inserción: d | Costo: 1
+Inserción: g | Costo: 1
+Inserción: e | Costo: 1
+Inserción: r | Costo: 1
+--------------------------------------
+
+Palabras: , mocyjzxuvswcern
+Longitudes: S1=0 S2=15 S1+S2=15
+Distancia mínima de edición: 15
+Tiempo de ejecución (segundos): 4.769e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: m | Costo: 1
+Inserción: o | Costo: 1
+Inserción: c | Costo: 1
+Inserción: y | Costo: 1
+Inserción: j | Costo: 1
+Inserción: z | Costo: 1
+Inserción: x | Costo: 1
+Inserción: u | Costo: 1
+Inserción: v | Costo: 1
+Inserción: s | Costo: 1
+Inserción: w | Costo: 1
+Inserción: c | Costo: 1
+Inserción: e | Costo: 1
+Inserción: r | Costo: 1
+Inserción: n | Costo: 1
+--------------------------------------
+
+Palabras: , vgourisbonkoqsti
+Longitudes: S1=0 S2=16 S1+S2=16
+Distancia mínima de edición: 16
+Tiempo de ejecución (segundos): 4.999e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: v | Costo: 1
+Inserción: g | Costo: 1
+Inserción: o | Costo: 1
+Inserción: u | Costo: 1
+Inserción: r | Costo: 1
+Inserción: i | Costo: 1
+Inserción: s | Costo: 1
+Inserción: b | Costo: 1
+Inserción: o | Costo: 1
+Inserción: n | Costo: 1
+Inserción: k | Costo: 1
+Inserción: o | Costo: 1
+Inserción: q | Costo: 1
+Inserción: s | Costo: 1
+Inserción: t | Costo: 1
+Inserción: i | Costo: 1
+--------------------------------------
+
+Palabras: , ejmcunbqitmmagzxo
+Longitudes: S1=0 S2=17 S1+S2=17
+Distancia mínima de edición: 17
+Tiempo de ejecución (segundos): 8.306e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: e | Costo: 1
+Inserción: j | Costo: 1
+Inserción: m | Costo: 1
+Inserción: c | Costo: 1
+Inserción: u | Costo: 1
+Inserción: n | Costo: 1
+Inserción: b | Costo: 1
+Inserción: q | Costo: 1
+Inserción: i | Costo: 1
+Inserción: t | Costo: 1
+Inserción: m | Costo: 1
+Inserción: m | Costo: 1
+Inserción: a | Costo: 1
+Inserción: g | Costo: 1
+Inserción: z | Costo: 1
+Inserción: x | Costo: 1
+Inserción: o | Costo: 1
+--------------------------------------
+
+Palabras: , prgzlhqytgrlbbpknt
+Longitudes: S1=0 S2=18 S1+S2=18
+Distancia mínima de edición: 18
+Tiempo de ejecución (segundos): 5.881e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: p | Costo: 1
+Inserción: r | Costo: 1
+Inserción: g | Costo: 1
+Inserción: z | Costo: 1
+Inserción: l | Costo: 1
+Inserción: h | Costo: 1
+Inserción: q | Costo: 1
+Inserción: y | Costo: 1
+Inserción: t | Costo: 1
+Inserción: g | Costo: 1
+Inserción: r | Costo: 1
+Inserción: l | Costo: 1
+Inserción: b | Costo: 1
+Inserción: b | Costo: 1
+Inserción: p | Costo: 1
+Inserción: k | Costo: 1
+Inserción: n | Costo: 1
+Inserción: t | Costo: 1
+--------------------------------------
+
+Palabras: , gawwkpjwrrxofnhloss
+Longitudes: S1=0 S2=19 S1+S2=19
+Distancia mínima de edición: 19
+Tiempo de ejecución (segundos): 6.071e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: g | Costo: 1
+Inserción: a | Costo: 1
+Inserción: w | Costo: 1
+Inserción: w | Costo: 1
+Inserción: k | Costo: 1
+Inserción: p | Costo: 1
+Inserción: j | Costo: 1
+Inserción: w | Costo: 1
+Inserción: r | Costo: 1
+Inserción: r | Costo: 1
+Inserción: x | Costo: 1
+Inserción: o | Costo: 1
+Inserción: f | Costo: 1
+Inserción: n | Costo: 1
+Inserción: h | Costo: 1
+Inserción: l | Costo: 1
+Inserción: o | Costo: 1
+Inserción: s | Costo: 1
+Inserción: s | Costo: 1
+--------------------------------------
+
+Palabras: , ernniyojpzykhygeiypg
+Longitudes: S1=0 S2=20 S1+S2=20
+Distancia mínima de edición: 20
+Tiempo de ejecución (segundos): 6.201e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: e | Costo: 1
+Inserción: r | Costo: 1
+Inserción: n | Costo: 1
+Inserción: n | Costo: 1
+Inserción: i | Costo: 1
+Inserción: y | Costo: 1
+Inserción: o | Costo: 1
+Inserción: j | Costo: 1
+Inserción: p | Costo: 1
+Inserción: z | Costo: 1
+Inserción: y | Costo: 1
+Inserción: k | Costo: 1
+Inserción: h | Costo: 1
+Inserción: y | Costo: 1
+Inserción: g | Costo: 1
+Inserción: e | Costo: 1
+Inserción: i | Costo: 1
+Inserción: y | Costo: 1
+Inserción: p | Costo: 1
+Inserción: g | Costo: 1
+--------------------------------------
+
+Palabras: , rgdilspxhirnbfalfpwxq
+Longitudes: S1=0 S2=21 S1+S2=21
+Distancia mínima de edición: 21
+Tiempo de ejecución (segundos): 6.432e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: r | Costo: 1
+Inserción: g | Costo: 1
+Inserción: d | Costo: 1
+Inserción: i | Costo: 1
+Inserción: l | Costo: 1
+Inserción: s | Costo: 1
+Inserción: p | Costo: 1
+Inserción: x | Costo: 1
+Inserción: h | Costo: 1
+Inserción: i | Costo: 1
+Inserción: r | Costo: 1
+Inserción: n | Costo: 1
+Inserción: b | Costo: 1
+Inserción: f | Costo: 1
+Inserción: a | Costo: 1
+Inserción: l | Costo: 1
+Inserción: f | Costo: 1
+Inserción: p | Costo: 1
+Inserción: w | Costo: 1
+Inserción: x | Costo: 1
+Inserción: q | Costo: 1
+--------------------------------------
+
+Palabras: , uhxuqdcosifannogflppee
+Longitudes: S1=0 S2=22 S1+S2=22
+Distancia mínima de edición: 22
+Tiempo de ejecución (segundos): 8.415e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: u | Costo: 1
+Inserción: h | Costo: 1
+Inserción: x | Costo: 1
+Inserción: u | Costo: 1
+Inserción: q | Costo: 1
+Inserción: d | Costo: 1
+Inserción: c | Costo: 1
+Inserción: o | Costo: 1
+Inserción: s | Costo: 1
+Inserción: i | Costo: 1
+Inserción: f | Costo: 1
+Inserción: a | Costo: 1
+Inserción: n | Costo: 1
+Inserción: n | Costo: 1
+Inserción: o | Costo: 1
+Inserción: g | Costo: 1
+Inserción: f | Costo: 1
+Inserción: l | Costo: 1
+Inserción: p | Costo: 1
+Inserción: p | Costo: 1
+Inserción: e | Costo: 1
+Inserción: e | Costo: 1
+--------------------------------------
+
+Palabras: , qlhdrwzqovxnpnrtdlblmqa
+Longitudes: S1=0 S2=23 S1+S2=23
+Distancia mínima de edición: 23
+Tiempo de ejecución (segundos): 6.893e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: q | Costo: 1
+Inserción: l | Costo: 1
+Inserción: h | Costo: 1
+Inserción: d | Costo: 1
+Inserción: r | Costo: 1
+Inserción: w | Costo: 1
+Inserción: z | Costo: 1
+Inserción: q | Costo: 1
+Inserción: o | Costo: 1
+Inserción: v | Costo: 1
+Inserción: x | Costo: 1
+Inserción: n | Costo: 1
+Inserción: p | Costo: 1
+Inserción: n | Costo: 1
+Inserción: r | Costo: 1
+Inserción: t | Costo: 1
+Inserción: d | Costo: 1
+Inserción: l | Costo: 1
+Inserción: b | Costo: 1
+Inserción: l | Costo: 1
+Inserción: m | Costo: 1
+Inserción: q | Costo: 1
+Inserción: a | Costo: 1
+--------------------------------------
+
+Palabras: , awfnlutsmhzpyxqqlnnacdrx
+Longitudes: S1=0 S2=24 S1+S2=24
+Distancia mínima de edición: 24
+Tiempo de ejecución (segundos): 7.154e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: a | Costo: 1
+Inserción: w | Costo: 1
+Inserción: f | Costo: 1
+Inserción: n | Costo: 1
+Inserción: l | Costo: 1
+Inserción: u | Costo: 1
+Inserción: t | Costo: 1
+Inserción: s | Costo: 1
+Inserción: m | Costo: 1
+Inserción: h | Costo: 1
+Inserción: z | Costo: 1
+Inserción: p | Costo: 1
+Inserción: y | Costo: 1
+Inserción: x | Costo: 1
+Inserción: q | Costo: 1
+Inserción: q | Costo: 1
+Inserción: l | Costo: 1
+Inserción: n | Costo: 1
+Inserción: n | Costo: 1
+Inserción: a | Costo: 1
+Inserción: c | Costo: 1
+Inserción: d | Costo: 1
+Inserción: r | Costo: 1
+Inserción: x | Costo: 1
+--------------------------------------
+
+Palabras: , ifattrwvnbkbydtkksckpuaci
+Longitudes: S1=0 S2=25 S1+S2=25
+Distancia mínima de edición: 25
+Tiempo de ejecución (segundos): 7.314e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: i | Costo: 1
+Inserción: f | Costo: 1
+Inserción: a | Costo: 1
+Inserción: t | Costo: 1
+Inserción: t | Costo: 1
+Inserción: r | Costo: 1
+Inserción: w | Costo: 1
+Inserción: v | Costo: 1
+Inserción: n | Costo: 1
+Inserción: b | Costo: 1
+Inserción: k | Costo: 1
+Inserción: b | Costo: 1
+Inserción: y | Costo: 1
+Inserción: d | Costo: 1
+Inserción: t | Costo: 1
+Inserción: k | Costo: 1
+Inserción: k | Costo: 1
+Inserción: s | Costo: 1
+Inserción: c | Costo: 1
+Inserción: k | Costo: 1
+Inserción: p | Costo: 1
+Inserción: u | Costo: 1
+Inserción: a | Costo: 1
+Inserción: c | Costo: 1
+Inserción: i | Costo: 1
+--------------------------------------
+
+Palabras: , qcmvwkfbkbwbxrraduygnlthnf
+Longitudes: S1=0 S2=26 S1+S2=26
+Distancia mínima de edición: 26
+Tiempo de ejecución (segundos): 9.438e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: q | Costo: 1
+Inserción: c | Costo: 1
+Inserción: m | Costo: 1
+Inserción: v | Costo: 1
+Inserción: w | Costo: 1
+Inserción: k | Costo: 1
+Inserción: f | Costo: 1
+Inserción: b | Costo: 1
+Inserción: k | Costo: 1
+Inserción: b | Costo: 1
+Inserción: w | Costo: 1
+Inserción: b | Costo: 1
+Inserción: x | Costo: 1
+Inserción: r | Costo: 1
+Inserción: r | Costo: 1
+Inserción: a | Costo: 1
+Inserción: d | Costo: 1
+Inserción: u | Costo: 1
+Inserción: y | Costo: 1
+Inserción: g | Costo: 1
+Inserción: n | Costo: 1
+Inserción: l | Costo: 1
+Inserción: t | Costo: 1
+Inserción: h | Costo: 1
+Inserción: n | Costo: 1
+Inserción: f | Costo: 1
+--------------------------------------
+
+Palabras: , yjiaraeexcqcfadbecuxdxrbgem
+Longitudes: S1=0 S2=27 S1+S2=27
+Distancia mínima de edición: 27
+Tiempo de ejecución (segundos): 7.724e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: y | Costo: 1
+Inserción: j | Costo: 1
+Inserción: i | Costo: 1
+Inserción: a | Costo: 1
+Inserción: r | Costo: 1
+Inserción: a | Costo: 1
+Inserción: e | Costo: 1
+Inserción: e | Costo: 1
+Inserción: x | Costo: 1
+Inserción: c | Costo: 1
+Inserción: q | Costo: 1
+Inserción: c | Costo: 1
+Inserción: f | Costo: 1
+Inserción: a | Costo: 1
+Inserción: d | Costo: 1
+Inserción: b | Costo: 1
+Inserción: e | Costo: 1
+Inserción: c | Costo: 1
+Inserción: u | Costo: 1
+Inserción: x | Costo: 1
+Inserción: d | Costo: 1
+Inserción: x | Costo: 1
+Inserción: r | Costo: 1
+Inserción: b | Costo: 1
+Inserción: g | Costo: 1
+Inserción: e | Costo: 1
+Inserción: m | Costo: 1
+--------------------------------------
+
+Palabras: , bnbgllqnestkpwaubdxfjczgfxxi
+Longitudes: S1=0 S2=28 S1+S2=28
+Distancia mínima de edición: 28
+Tiempo de ejecución (segundos): 7.935e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: b | Costo: 1
+Inserción: n | Costo: 1
+Inserción: b | Costo: 1
+Inserción: g | Costo: 1
+Inserción: l | Costo: 1
+Inserción: l | Costo: 1
+Inserción: q | Costo: 1
+Inserción: n | Costo: 1
+Inserción: e | Costo: 1
+Inserción: s | Costo: 1
+Inserción: t | Costo: 1
+Inserción: k | Costo: 1
+Inserción: p | Costo: 1
+Inserción: w | Costo: 1
+Inserción: a | Costo: 1
+Inserción: u | Costo: 1
+Inserción: b | Costo: 1
+Inserción: d | Costo: 1
+Inserción: x | Costo: 1
+Inserción: f | Costo: 1
+Inserción: j | Costo: 1
+Inserción: c | Costo: 1
+Inserción: z | Costo: 1
+Inserción: g | Costo: 1
+Inserción: f | Costo: 1
+Inserción: x | Costo: 1
+Inserción: x | Costo: 1
+Inserción: i | Costo: 1
+--------------------------------------
+
+Palabras: , ddveqymdlfssxlcnjfjniistkrzpo
+Longitudes: S1=0 S2=29 S1+S2=29
+Distancia mínima de edición: 29
+Tiempo de ejecución (segundos): 8.206e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: d | Costo: 1
+Inserción: d | Costo: 1
+Inserción: v | Costo: 1
+Inserción: e | Costo: 1
+Inserción: q | Costo: 1
+Inserción: y | Costo: 1
+Inserción: m | Costo: 1
+Inserción: d | Costo: 1
+Inserción: l | Costo: 1
+Inserción: f | Costo: 1
+Inserción: s | Costo: 1
+Inserción: s | Costo: 1
+Inserción: x | Costo: 1
+Inserción: l | Costo: 1
+Inserción: c | Costo: 1
+Inserción: n | Costo: 1
+Inserción: j | Costo: 1
+Inserción: f | Costo: 1
+Inserción: j | Costo: 1
+Inserción: n | Costo: 1
+Inserción: i | Costo: 1
+Inserción: i | Costo: 1
+Inserción: s | Costo: 1
+Inserción: t | Costo: 1
+Inserción: k | Costo: 1
+Inserción: r | Costo: 1
+Inserción: z | Costo: 1
+Inserción: p | Costo: 1
+Inserción: o | Costo: 1
+--------------------------------------
+
+Palabras: , wytzvzrvoujtmbqzdflkoysxqljhmz
+Longitudes: S1=0 S2=30 S1+S2=30
+Distancia mínima de edición: 30
+Tiempo de ejecución (segundos): 8.416e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: w | Costo: 1
+Inserción: y | Costo: 1
+Inserción: t | Costo: 1
+Inserción: z | Costo: 1
+Inserción: v | Costo: 1
+Inserción: z | Costo: 1
+Inserción: r | Costo: 1
+Inserción: v | Costo: 1
+Inserción: o | Costo: 1
+Inserción: u | Costo: 1
+Inserción: j | Costo: 1
+Inserción: t | Costo: 1
+Inserción: m | Costo: 1
+Inserción: b | Costo: 1
+Inserción: q | Costo: 1
+Inserción: z | Costo: 1
+Inserción: d | Costo: 1
+Inserción: f | Costo: 1
+Inserción: l | Costo: 1
+Inserción: k | Costo: 1
+Inserción: o | Costo: 1
+Inserción: y | Costo: 1
+Inserción: s | Costo: 1
+Inserción: x | Costo: 1
+Inserción: q | Costo: 1
+Inserción: l | Costo: 1
+Inserción: j | Costo: 1
+Inserción: h | Costo: 1
+Inserción: m | Costo: 1
+Inserción: z | Costo: 1
+--------------------------------------
+
+Palabras: , yiztjwtarhuacibukhavrqtmpjzbsma
+Longitudes: S1=0 S2=31 S1+S2=31
+Distancia mínima de edición: 31
+Tiempo de ejecución (segundos): 1.0018e-05
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: y | Costo: 1
+Inserción: i | Costo: 1
+Inserción: z | Costo: 1
+Inserción: t | Costo: 1
+Inserción: j | Costo: 1
+Inserción: w | Costo: 1
+Inserción: t | Costo: 1
+Inserción: a | Costo: 1
+Inserción: r | Costo: 1
+Inserción: h | Costo: 1
+Inserción: u | Costo: 1
+Inserción: a | Costo: 1
+Inserción: c | Costo: 1
+Inserción: i | Costo: 1
+Inserción: b | Costo: 1
+Inserción: u | Costo: 1
+Inserción: k | Costo: 1
+Inserción: h | Costo: 1
+Inserción: a | Costo: 1
+Inserción: v | Costo: 1
+Inserción: r | Costo: 1
+Inserción: q | Costo: 1
+Inserción: t | Costo: 1
+Inserción: m | Costo: 1
+Inserción: p | Costo: 1
+Inserción: j | Costo: 1
+Inserción: z | Costo: 1
+Inserción: b | Costo: 1
+Inserción: s | Costo: 1
+Inserción: m | Costo: 1
+Inserción: a | Costo: 1
+--------------------------------------
+
+Palabras: , qubmexfgoobrqjskvbmqtfjhwugxnszf
+Longitudes: S1=0 S2=32 S1+S2=32
+Distancia mínima de edición: 32
+Tiempo de ejecución (segundos): 9.498e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: q | Costo: 1
+Inserción: u | Costo: 1
+Inserción: b | Costo: 1
+Inserción: m | Costo: 1
+Inserción: e | Costo: 1
+Inserción: x | Costo: 1
+Inserción: f | Costo: 1
+Inserción: g | Costo: 1
+Inserción: o | Costo: 1
+Inserción: o | Costo: 1
+Inserción: b | Costo: 1
+Inserción: r | Costo: 1
+Inserción: q | Costo: 1
+Inserción: j | Costo: 1
+Inserción: s | Costo: 1
+Inserción: k | Costo: 1
+Inserción: v | Costo: 1
+Inserción: b | Costo: 1
+Inserción: m | Costo: 1
+Inserción: q | Costo: 1
+Inserción: t | Costo: 1
+Inserción: f | Costo: 1
+Inserción: j | Costo: 1
+Inserción: h | Costo: 1
+Inserción: w | Costo: 1
+Inserción: u | Costo: 1
+Inserción: g | Costo: 1
+Inserción: x | Costo: 1
+Inserción: n | Costo: 1
+Inserción: s | Costo: 1
+Inserción: z | Costo: 1
+Inserción: f | Costo: 1
+--------------------------------------
+
+Palabras: , pcrvzybqmeheqbrlffcyklfjiniviicxk
+Longitudes: S1=0 S2=33 S1+S2=33
+Distancia mínima de edición: 33
+Tiempo de ejecución (segundos): 1.2334e-05
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: p | Costo: 1
+Inserción: c | Costo: 1
+Inserción: r | Costo: 1
+Inserción: v | Costo: 1
+Inserción: z | Costo: 1
+Inserción: y | Costo: 1
+Inserción: b | Costo: 1
+Inserción: q | Costo: 1
+Inserción: m | Costo: 1
+Inserción: e | Costo: 1
+Inserción: h | Costo: 1
+Inserción: e | Costo: 1
+Inserción: q | Costo: 1
+Inserción: b | Costo: 1
+Inserción: r | Costo: 1
+Inserción: l | Costo: 1
+Inserción: f | Costo: 1
+Inserción: f | Costo: 1
+Inserción: c | Costo: 1
+Inserción: y | Costo: 1
+Inserción: k | Costo: 1
+Inserción: l | Costo: 1
+Inserción: f | Costo: 1
+Inserción: j | Costo: 1
+Inserción: i | Costo: 1
+Inserción: n | Costo: 1
+Inserción: i | Costo: 1
+Inserción: v | Costo: 1
+Inserción: i | Costo: 1
+Inserción: i | Costo: 1
+Inserción: c | Costo: 1
+Inserción: x | Costo: 1
+Inserción: k | Costo: 1
+--------------------------------------
+
+Palabras: , wumuxcjclnsogdtmhrwvyhdoqawacvmyry
+Longitudes: S1=0 S2=34 S1+S2=34
+Distancia mínima de edición: 34
+Tiempo de ejecución (segundos): 1.0861e-05
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: w | Costo: 1
+Inserción: u | Costo: 1
+Inserción: m | Costo: 1
+Inserción: u | Costo: 1
+Inserción: x | Costo: 1
+Inserción: c | Costo: 1
+Inserción: j | Costo: 1
+Inserción: c | Costo: 1
+Inserción: l | Costo: 1
+Inserción: n | Costo: 1
+Inserción: s | Costo: 1
+Inserción: o | Costo: 1
+Inserción: g | Costo: 1
+Inserción: d | Costo: 1
+Inserción: t | Costo: 1
+Inserción: m | Costo: 1
+Inserción: h | Costo: 1
+Inserción: r | Costo: 1
+Inserción: w | Costo: 1
+Inserción: v | Costo: 1
+Inserción: y | Costo: 1
+Inserción: h | Costo: 1
+Inserción: d | Costo: 1
+Inserción: o | Costo: 1
+Inserción: q | Costo: 1
+Inserción: a | Costo: 1
+Inserción: w | Costo: 1
+Inserción: a | Costo: 1
+Inserción: c | Costo: 1
+Inserción: v | Costo: 1
+Inserción: m | Costo: 1
+Inserción: y | Costo: 1
+Inserción: r | Costo: 1
+Inserción: y | Costo: 1
+--------------------------------------
+
+Palabras: , toceqnrkcyqxkxrisrsxfixbkaywapvvgzz
+Longitudes: S1=0 S2=35 S1+S2=35
+Distancia mínima de edición: 35
+Tiempo de ejecución (segundos): 1.1101e-05
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: t | Costo: 1
+Inserción: o | Costo: 1
+Inserción: c | Costo: 1
+Inserción: e | Costo: 1
+Inserción: q | Costo: 1
+Inserción: n | Costo: 1
+Inserción: r | Costo: 1
+Inserción: k | Costo: 1
+Inserción: c | Costo: 1
+Inserción: y | Costo: 1
+Inserción: q | Costo: 1
+Inserción: x | Costo: 1
+Inserción: k | Costo: 1
+Inserción: x | Costo: 1
+Inserción: r | Costo: 1
+Inserción: i | Costo: 1
+Inserción: s | Costo: 1
+Inserción: r | Costo: 1
+Inserción: s | Costo: 1
+Inserción: x | Costo: 1
+Inserción: f | Costo: 1
+Inserción: i | Costo: 1
+Inserción: x | Costo: 1
+Inserción: b | Costo: 1
+Inserción: k | Costo: 1
+Inserción: a | Costo: 1
+Inserción: y | Costo: 1
+Inserción: w | Costo: 1
+Inserción: a | Costo: 1
+Inserción: p | Costo: 1
+Inserción: v | Costo: 1
+Inserción: v | Costo: 1
+Inserción: g | Costo: 1
+Inserción: z | Costo: 1
+Inserción: z | Costo: 1
+--------------------------------------
+
+Palabras: , yprjtrbqdahnvzfsepqizsiysavogunejgpc
+Longitudes: S1=0 S2=36 S1+S2=36
+Distancia mínima de edición: 36
+Tiempo de ejecución (segundos): 1.1411e-05
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: y | Costo: 1
+Inserción: p | Costo: 1
+Inserción: r | Costo: 1
+Inserción: j | Costo: 1
+Inserción: t | Costo: 1
+Inserción: r | Costo: 1
+Inserción: b | Costo: 1
+Inserción: q | Costo: 1
+Inserción: d | Costo: 1
+Inserción: a | Costo: 1
+Inserción: h | Costo: 1
+Inserción: n | Costo: 1
+Inserción: v | Costo: 1
+Inserción: z | Costo: 1
+Inserción: f | Costo: 1
+Inserción: s | Costo: 1
+Inserción: e | Costo: 1
+Inserción: p | Costo: 1
+Inserción: q | Costo: 1
+Inserción: i | Costo: 1
+Inserción: z | Costo: 1
+Inserción: s | Costo: 1
+Inserción: i | Costo: 1
+Inserción: y | Costo: 1
+Inserción: s | Costo: 1
+Inserción: a | Costo: 1
+Inserción: v | Costo: 1
+Inserción: o | Costo: 1
+Inserción: g | Costo: 1
+Inserción: u | Costo: 1
+Inserción: n | Costo: 1
+Inserción: e | Costo: 1
+Inserción: j | Costo: 1
+Inserción: g | Costo: 1
+Inserción: p | Costo: 1
+Inserción: c | Costo: 1
+--------------------------------------
+
+Palabras: , zqvcrcsmbzgipwsqqaojalzggonrvcuwvpzmt
+Longitudes: S1=0 S2=37 S1+S2=37
+Distancia mínima de edición: 37
+Tiempo de ejecución (segundos): 1.1541e-05
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: z | Costo: 1
+Inserción: q | Costo: 1
+Inserción: v | Costo: 1
+Inserción: c | Costo: 1
+Inserción: r | Costo: 1
+Inserción: c | Costo: 1
+Inserción: s | Costo: 1
+Inserción: m | Costo: 1
+Inserción: b | Costo: 1
+Inserción: z | Costo: 1
+Inserción: g | Costo: 1
+Inserción: i | Costo: 1
+Inserción: p | Costo: 1
+Inserción: w | Costo: 1
+Inserción: s | Costo: 1
+Inserción: q | Costo: 1
+Inserción: q | Costo: 1
+Inserción: a | Costo: 1
+Inserción: o | Costo: 1
+Inserción: j | Costo: 1
+Inserción: a | Costo: 1
+Inserción: l | Costo: 1
+Inserción: z | Costo: 1
+Inserción: g | Costo: 1
+Inserción: g | Costo: 1
+Inserción: o | Costo: 1
+Inserción: n | Costo: 1
+Inserción: r | Costo: 1
+Inserción: v | Costo: 1
+Inserción: c | Costo: 1
+Inserción: u | Costo: 1
+Inserción: w | Costo: 1
+Inserción: v | Costo: 1
+Inserción: p | Costo: 1
+Inserción: z | Costo: 1
+Inserción: m | Costo: 1
+Inserción: t | Costo: 1
+--------------------------------------
+
+Palabras: , taxsgfjfxcvzsgaehikwvbtyxptoqhkljhepmp
+Longitudes: S1=0 S2=38 S1+S2=38
+Distancia mínima de edición: 38
+Tiempo de ejecución (segundos): 1.1742e-05
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: t | Costo: 1
+Inserción: a | Costo: 1
+Inserción: x | Costo: 1
+Inserción: s | Costo: 1
+Inserción: g | Costo: 1
+Inserción: f | Costo: 1
+Inserción: j | Costo: 1
+Inserción: f | Costo: 1
+Inserción: x | Costo: 1
+Inserción: c | Costo: 1
+Inserción: v | Costo: 1
+Inserción: z | Costo: 1
+Inserción: s | Costo: 1
+Inserción: g | Costo: 1
+Inserción: a | Costo: 1
+Inserción: e | Costo: 1
+Inserción: h | Costo: 1
+Inserción: i | Costo: 1
+Inserción: k | Costo: 1
+Inserción: w | Costo: 1
+Inserción: v | Costo: 1
+Inserción: b | Costo: 1
+Inserción: t | Costo: 1
+Inserción: y | Costo: 1
+Inserción: x | Costo: 1
+Inserción: p | Costo: 1
+Inserción: t | Costo: 1
+Inserción: o | Costo: 1
+Inserción: q | Costo: 1
+Inserción: h | Costo: 1
+Inserción: k | Costo: 1
+Inserción: l | Costo: 1
+Inserción: j | Costo: 1
+Inserción: h | Costo: 1
+Inserción: e | Costo: 1
+Inserción: p | Costo: 1
+Inserción: m | Costo: 1
+Inserción: p | Costo: 1
+--------------------------------------
+
+Palabras: , wltukmckqktciqfdofujvlqfwzmcrauplnjwzoi
+Longitudes: S1=0 S2=39 S1+S2=39
+Distancia mínima de edición: 39
+Tiempo de ejecución (segundos): 1.611e-05
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: w | Costo: 1
+Inserción: l | Costo: 1
+Inserción: t | Costo: 1
+Inserción: u | Costo: 1
+Inserción: k | Costo: 1
+Inserción: m | Costo: 1
+Inserción: c | Costo: 1
+Inserción: k | Costo: 1
+Inserción: q | Costo: 1
+Inserción: k | Costo: 1
+Inserción: t | Costo: 1
+Inserción: c | Costo: 1
+Inserción: i | Costo: 1
+Inserción: q | Costo: 1
+Inserción: f | Costo: 1
+Inserción: d | Costo: 1
+Inserción: o | Costo: 1
+Inserción: f | Costo: 1
+Inserción: u | Costo: 1
+Inserción: j | Costo: 1
+Inserción: v | Costo: 1
+Inserción: l | Costo: 1
+Inserción: q | Costo: 1
+Inserción: f | Costo: 1
+Inserción: w | Costo: 1
+Inserción: z | Costo: 1
+Inserción: m | Costo: 1
+Inserción: c | Costo: 1
+Inserción: r | Costo: 1
+Inserción: a | Costo: 1
+Inserción: u | Costo: 1
+Inserción: p | Costo: 1
+Inserción: l | Costo: 1
+Inserción: n | Costo: 1
+Inserción: j | Costo: 1
+Inserción: w | Costo: 1
+Inserción: z | Costo: 1
+Inserción: o | Costo: 1
+Inserción: i | Costo: 1
+--------------------------------------
+
+Palabras: , radviubnkihufsmlrmzvfapundglcuuwuzrevutg
+Longitudes: S1=0 S2=40 S1+S2=40
+Distancia mínima de edición: 40
+Tiempo de ejecución (segundos): 1.2233e-05
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: r | Costo: 1
+Inserción: a | Costo: 1
+Inserción: d | Costo: 1
+Inserción: v | Costo: 1
+Inserción: i | Costo: 1
+Inserción: u | Costo: 1
+Inserción: b | Costo: 1
+Inserción: n | Costo: 1
+Inserción: k | Costo: 1
+Inserción: i | Costo: 1
+Inserción: h | Costo: 1
+Inserción: u | Costo: 1
+Inserción: f | Costo: 1
+Inserción: s | Costo: 1
+Inserción: m | Costo: 1
+Inserción: l | Costo: 1
+Inserción: r | Costo: 1
+Inserción: m | Costo: 1
+Inserción: z | Costo: 1
+Inserción: v | Costo: 1
+Inserción: f | Costo: 1
+Inserción: a | Costo: 1
+Inserción: p | Costo: 1
+Inserción: u | Costo: 1
+Inserción: n | Costo: 1
+Inserción: d | Costo: 1
+Inserción: g | Costo: 1
+Inserción: l | Costo: 1
+Inserción: c | Costo: 1
+Inserción: u | Costo: 1
+Inserción: u | Costo: 1
+Inserción: w | Costo: 1
+Inserción: u | Costo: 1
+Inserción: z | Costo: 1
+Inserción: r | Costo: 1
+Inserción: e | Costo: 1
+Inserción: v | Costo: 1
+Inserción: u | Costo: 1
+Inserción: t | Costo: 1
+Inserción: g | Costo: 1
+--------------------------------------
+
+Resumen de Longitudes y Tiempos de Ejecucion:
+longitud_S1 + longitudS2, tiempo_ejecucion[seg]
+( 1, 5.871e-06 )
+( 2, 3.306e-06 )
+( 3, 1.694e-06 )
+( 4, 1.803e-06 )
+( 5, 2.315e-06 )
+( 6, 2.555e-06 )
+( 7, 2.795e-06 )
+( 8, 2.925e-06 )
+( 9, 3.476e-06 )
+( 10, 3.697e-06 )
+( 11, 7.855e-06 )
+( 12, 4.147e-06 )
+( 13, 4.368e-06 )
+( 14, 4.618e-06 )
+( 15, 4.769e-06 )
+( 16, 4.999e-06 )
+( 17, 8.306e-06 )
+( 18, 5.881e-06 )
+( 19, 6.071e-06 )
+( 20, 6.201e-06 )
+( 21, 6.432e-06 )
+( 22, 8.415e-06 )
+( 23, 6.893e-06 )
+( 24, 7.154e-06 )
+( 25, 7.314e-06 )
+( 26, 9.438e-06 )
+( 27, 7.724e-06 )
+( 28, 7.935e-06 )
+( 29, 8.206e-06 )
+( 30, 8.416e-06 )
+( 31, 1.0018e-05 )
+( 32, 9.498e-06 )
+( 33, 1.2334e-05 )
+( 34, 1.0861e-05 )
+( 35, 1.1101e-05 )
+( 36, 1.1411e-05 )
+( 37, 1.1541e-05 )
+( 38, 1.1742e-05 )
+( 39, 1.611e-05 )
+( 40, 1.2233e-05 )

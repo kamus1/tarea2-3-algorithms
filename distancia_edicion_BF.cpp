@@ -4,21 +4,21 @@
 using namespace std;
 using namespace chrono;
 
-// Matrices de costos para reemplazar y transponer letras (26x26)
+//matrices de costos para reemplazar y transponer letras (26x26)
 vector<vector<int>> matriz_costos_replace(26, vector<int>(26));
 vector<vector<int>> matriz_costos_transpose(26, vector<int>(26));
 
-// Tablas para eliminar e insertar letras (26 letras del alfabeto inglés)
+//tablas para eliminar e insertar letras (26 letras del alfabeto inglés)
 vector<int> tabla_costos_delete(26);
 vector<int> tabla_costos_insert(26);
 
-// Variable para usar las tablas o matrices; si es false, usa costos por defecto
+//variable para usar las tablas o matrices; si es false, usa costos por defecto
 bool usar_tablas = true;
 
-// Variable global para almacenar las operaciones
+//variable global para almacenar las operaciones
 vector<string> operaciones_globales;
 
-// Funciones para cargar los datos de los .txt en las matrices y tablas
+//funciones para cargar los datos de los .txt en las matrices y tablas
 void cargar_cost_insert(const string &filename) {
     ifstream archivo(filename);
     if (!archivo) {
@@ -75,9 +75,9 @@ int indice_caracter(char c) {
     return c - 'a';
 }
 
-// Funciones de costos
+//funciones de costos
 int costo_sub(char a, char b) {
-    int costo = 1; // Costo default
+    int costo = 1; // costo default
     if (!usar_tablas) {
         if (a == b) return 0;
     }
@@ -88,7 +88,7 @@ int costo_sub(char a, char b) {
 }
 
 int costo_ins(char b) {
-    int costo = 1; // Costo default
+    int costo = 1; // costo default
     if (usar_tablas) {
         costo = tabla_costos_insert[indice_caracter(b)];
     }
@@ -96,7 +96,7 @@ int costo_ins(char b) {
 }
 
 int costo_del(char a) {
-    int costo = 1; // Costo default
+    int costo = 1; // costo default
     if (usar_tablas) {
         costo = tabla_costos_delete[indice_caracter(a)];
     }
@@ -104,14 +104,14 @@ int costo_del(char a) {
 }
 
 int costo_trans(char a, char b) {
-    int costo = 1; // Costo default
+    int costo = 1; // costo default
     if (usar_tablas) {
         costo = matriz_costos_transpose[indice_caracter(a)][indice_caracter(b)];
     }
     return costo;
 }
 
-// Función recursiva para calcular la distancia de edición y registrar las operaciones
+// función recursiva para calcular la distancia de edición y registrar las operaciones
 int distancia_fuerza_bruta(const string& string1, const string& string2, int index_s1, int index_s2, vector<string>& operaciones) {
     if (index_s1 == 0) {
         int costo_total = 0;
@@ -136,7 +136,7 @@ int distancia_fuerza_bruta(const string& string1, const string& string2, int ind
 
     vector<string> operaciones_sub, operaciones_ins, operaciones_del, operaciones_trans;
 
-    // Sustitución
+    // sustitución
     int costo_sustitucion = distancia_fuerza_bruta(string1, string2, index_s1 - 1, index_s2 - 1, operaciones_sub);
     int costo_op_sub = costo_sub(string1[index_s1 - 1], string2[index_s2 - 1]);
     costo_sustitucion += costo_op_sub;
@@ -144,19 +144,19 @@ int distancia_fuerza_bruta(const string& string1, const string& string2, int ind
         operaciones_sub.push_back("Sustitución: " + string(1, string1[index_s1 - 1]) + " -> " + string(1, string2[index_s2 - 1]) + " | Costo: " + to_string(costo_op_sub));
     }
 
-    // Inserción
+    // inserción
     int costo_insercion = distancia_fuerza_bruta(string1, string2, index_s1, index_s2 - 1, operaciones_ins);
     int costo_op_ins = costo_ins(string2[index_s2 - 1]);
     costo_insercion += costo_op_ins;
     operaciones_ins.push_back("Inserción: " + string(1, string2[index_s2 - 1]) + " | Costo: " + to_string(costo_op_ins));
 
-    // Eliminación
+    // eliminación
     int costo_eliminacion = distancia_fuerza_bruta(string1, string2, index_s1 - 1, index_s2, operaciones_del);
     int costo_op_del = costo_del(string1[index_s1 - 1]);
     costo_eliminacion += costo_op_del;
     operaciones_del.push_back("Eliminación: " + string(1, string1[index_s1 - 1]) + " | Costo: " + to_string(costo_op_del));
 
-    // Transposición
+    // transposición
     int costo_transposicion = INT_MAX;
     if (index_s1 > 1 && index_s2 > 1 && string1[index_s1 - 1] == string2[index_s2 - 2] && string1[index_s1 - 2] == string2[index_s2 - 1]) {
         costo_transposicion = distancia_fuerza_bruta(string1, string2, index_s1 - 2, index_s2 - 2, operaciones_trans);
@@ -165,7 +165,7 @@ int distancia_fuerza_bruta(const string& string1, const string& string2, int ind
         operaciones_trans.push_back("Transposición: " + string(1, string1[index_s1 - 2]) + " <-> " + string(1, string1[index_s1 - 1]) + " | Costo: " + to_string(costo_op_trans));
     }
 
-    // Seleccionar la operación con el menor costo
+    // seleccionar la operación con el menor costo
     int min_cost = costo_sustitucion;
     vector<string>* min_operaciones = &operaciones_sub;
 
@@ -187,16 +187,16 @@ int distancia_fuerza_bruta(const string& string1, const string& string2, int ind
 }
 
 int calcular_distancia_fuerza_bruta(const string& string1, const string& string2) {
-    operaciones_globales.clear(); // Limpiar las operaciones previas
+    operaciones_globales.clear(); // limpiar las operaciones previas
     vector<string> operaciones_temp;
     int distancia = distancia_fuerza_bruta(string1, string2, string1.size(), string2.size(), operaciones_temp);
-    // Las operaciones se almacenan en orden inverso, las invertimos
+    // las operaciones se almacenan en orden inverso, las invertimos
     reverse(operaciones_temp.begin(), operaciones_temp.end());
     operaciones_globales = operaciones_temp;
     return distancia;
 }
 
-// Función para crear un directorio si no existe
+// función para crear un directorio si no existe
 bool crearDirectorio(const string &path) {
     #if defined(_WIN32)
         return _mkdir(path.c_str()) == 0 || errno == EEXIST;
@@ -278,7 +278,7 @@ void procesarArchivo(const string &archivoEntrada, const string &rutaEjecucion, 
         resumenResultados.push_back(make_tuple(longitudS1, longitudS2, tiempo_ejecucion));
     }
 
-    archivoResultado << "Resumen de Longitudes y Tiempos de Ejecución:\n";
+    archivoResultado << "Resumen de Longitudes y Tiempos de Ejecucion:\n";
     archivoResultado << "longitud_S1 + longitudS2, tiempo_ejecucion[seg]" << endl;
     for (const auto &resumen : resumenResultados) {
         archivoResultado << "( " << get<0>(resumen) + get<1>(resumen) << ", " << get<2>(resumen) << " )" << endl;
@@ -289,19 +289,18 @@ void procesarArchivo(const string &archivoEntrada, const string &rutaEjecucion, 
 }
 
 int main() {
-    // Cargar los costos desde los archivos .txt
+    //cargar los costos desde los archivos .txt
     cargar_cost_insert("cost_insert.txt");
     cargar_cost_delete("cost_delete.txt");
     cargar_cost_replace("cost_replace.txt");
     cargar_cost_transpose("cost_transpose.txt");
 
-    // Variable para alternar entre salida estándar y procesamiento de archivos
+    //variable para alternar entre salida estándar y procesamiento de archivos
     bool usar_salida_estandar = false;
 
     if (usar_salida_estandar) {
-        // Ejemplo de cálculo con salida estándar
         string S1 = "hola";
-        string S2 = "joale";
+        string S2 = "olas";
 
         cout << "Ingrese S1: ";
         cin >> S1;
@@ -322,22 +321,23 @@ int main() {
             cout << operacion << endl;
         }
     } else {
-        // Crear la carpeta para la ejecución actual
+        //crear la carpeta para la ejecución actual
         string rutaEjecucion = obtenerRutaEjecucion();
         if (rutaEjecucion.empty()) {
             cerr << "Error al crear la estructura de carpetas." << endl;
             return 1;
         }
 
-        // Procesamiento de archivos y guardado de resultados en archivos
+        //procesamiento de archivos y guardado de resultados en archivos
         vector<pair<string, string>> archivos = {
             //{"datasets/dataset_cadena_vacia.txt", "res_cadena_vacia.txt"},
             //{"datasets/dataset_cadenas_aleatorias.txt", "res_cadena_aleatorias.txt"},
+            //{"datasets/dataset_con_gaps.txt", "res_cadenas_con_gaps.txt"},
             //{"datasets/dataset_palindromos.txt", "res_cadenas_palindromos.txt"},
-            {"datasets/dataset_patrones_alternados.txt", "res_patrones_alternados.txt"},
+            //{"datasets/dataset_patrones_alternados.txt", "res_patrones_alternados.txt"},
             //{"datasets/dataset_transposicion.txt", "res_transposicion.txt"},
-            //{"datasets/dataset_repeticiones.txt", "res_cadenas_con_repeticiones.txt"},
-            //{"datasets/dataset_con_gaps.txt", "res_cadenas_con_gaps.txt"}
+            {"datasets/dataset_repeticiones.txt", "res_cadenas_con_repeticiones.txt"},
+
         };
 
         for (const auto &par : archivos) {

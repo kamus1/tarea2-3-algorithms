@@ -1,0 +1,143 @@
+Palabras: x, x
+Longitudes: S1=1 S2=1 S1+S2=2
+Distancia mínima de edición: 0
+Tiempo de ejecución (segundos): 1.7493e-05
+Operaciones necesarias para la distancia mínima de edición:
+--------------------------------------
+
+Palabras: xy, xy
+Longitudes: S1=2 S2=2 S1+S2=4
+Distancia mínima de edición: 0
+Tiempo de ejecución (segundos): 3.9314e-05
+Operaciones necesarias para la distancia mínima de edición:
+--------------------------------------
+
+Palabras: yzx, xyz
+Longitudes: S1=3 S2=3 S1+S2=6
+Distancia mínima de edición: 2
+Tiempo de ejecución (segundos): 0.000249697
+Operaciones necesarias para la distancia mínima de edición:
+Eliminación: x | Costo: 1
+Inserción: x | Costo: 1
+--------------------------------------
+
+Palabras: xzyx, xyzx
+Longitudes: S1=4 S2=4 S1+S2=8
+Distancia mínima de edición: 1
+Tiempo de ejecución (segundos): 0.000772003
+Operaciones necesarias para la distancia mínima de edición:
+Transposición: z <-> y | Costo: 1
+--------------------------------------
+
+Palabras: xyzxy, xyzxy
+Longitudes: S1=5 S2=5 S1+S2=10
+Distancia mínima de edición: 0
+Tiempo de ejecución (segundos): 0.00174372
+Operaciones necesarias para la distancia mínima de edición:
+--------------------------------------
+
+Palabras: zxxyzy, xyzxyz
+Longitudes: S1=6 S2=6 S1+S2=12
+Distancia mínima de edición: 4
+Tiempo de ejecución (segundos): 0.00860898
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: z | Costo: 1
+Inserción: x | Costo: 1
+Eliminación: z | Costo: 1
+Eliminación: x | Costo: 1
+--------------------------------------
+
+Palabras: xxzyzyx, xyzxyzx
+Longitudes: S1=7 S2=7 S1+S2=14
+Distancia mínima de edición: 3
+Tiempo de ejecución (segundos): 0.0437774
+Operaciones necesarias para la distancia mínima de edición:
+Eliminación: y | Costo: 1
+Inserción: x | Costo: 1
+Sustitución: x -> y | Costo: 1
+--------------------------------------
+
+Palabras: xxyyzyzx, xyzxyzxy
+Longitudes: S1=8 S2=8 S1+S2=16
+Distancia mínima de edición: 4
+Tiempo de ejecución (segundos): 0.231502
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: y | Costo: 1
+Sustitución: z -> x | Costo: 1
+Sustitución: y -> z | Costo: 1
+Eliminación: x | Costo: 1
+--------------------------------------
+
+Palabras: yzyxzxzxy, xyzxyzxyz
+Longitudes: S1=9 S2=9 S1+S2=18
+Distancia mínima de edición: 5
+Tiempo de ejecución (segundos): 1.47141
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución: y -> z | Costo: 1
+Sustitución: x -> y | Costo: 1
+Eliminación: z | Costo: 1
+Transposición: y <-> x | Costo: 1
+Inserción: x | Costo: 1
+--------------------------------------
+
+Palabras: xzxyzxyxzy, xyzxyzxyzx
+Longitudes: S1=10 S2=10 S1+S2=20
+Distancia mínima de edición: 3
+Tiempo de ejecución (segundos): 7.58615
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución: y -> x | Costo: 1
+Eliminación: x | Costo: 1
+Inserción: y | Costo: 1
+--------------------------------------
+
+Palabras: zxyzyxyxyzx, xyzxyzxyzxy
+Longitudes: S1=11 S2=11 S1+S2=22
+Distancia mínima de edición: 4
+Tiempo de ejecución (segundos): 45.0027
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: y | Costo: 1
+Sustitución: y -> z | Costo: 1
+Transposición: y <-> x | Costo: 1
+Eliminación: z | Costo: 1
+--------------------------------------
+
+Palabras: yzxzyxyxyzxz, xyzxyzxyzxyz
+Longitudes: S1=12 S2=12 S1+S2=24
+Distancia mínima de edición: 5
+Tiempo de ejecución (segundos): 256.24
+Operaciones necesarias para la distancia mínima de edición:
+Inserción: y | Costo: 1
+Sustitución: y -> z | Costo: 1
+Eliminación: x | Costo: 1
+Eliminación: z | Costo: 1
+Inserción: x | Costo: 1
+--------------------------------------
+
+Palabras: zxxzyxxzyzxyy, xyzxyzxyzxyzx
+Longitudes: S1=13 S2=13 S1+S2=26
+Distancia mínima de edición: 6
+Tiempo de ejecución (segundos): 1452.94
+Operaciones necesarias para la distancia mínima de edición:
+Sustitución: y -> x | Costo: 1
+Inserción: z | Costo: 1
+Transposición: x <-> z | Costo: 1
+Transposición: y <-> x | Costo: 1
+Sustitución: x -> y | Costo: 1
+Eliminación: z | Costo: 1
+--------------------------------------
+
+Resumen de Longitudes y Tiempos de Ejecucion:
+longitud_S1 + longitudS2, tiempo_ejecucion[seg]
+( 2, 1.7493e-05 )
+( 4, 3.9314e-05 )
+( 6, 0.000249697 )
+( 8, 0.000772003 )
+( 10, 0.00174372 )
+( 12, 0.00860898 )
+( 14, 0.0437774 )
+( 16, 0.231502 )
+( 18, 1.47141 )
+( 20, 7.58615 )
+( 22, 45.0027 )
+( 24, 256.24 )
+( 26, 1452.94 )

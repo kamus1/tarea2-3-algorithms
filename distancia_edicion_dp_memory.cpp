@@ -11,8 +11,8 @@ vector<vector<int>> matriz_costos_transpose(26, vector<int>(26));
 vector<int> tabla_costos_delete(26);
 vector<int> tabla_costos_insert(26);
 
-//variable para usar las tablas o matrices, si es false usa costos default
-bool usar_tablas = false;
+//variable para usar las tablas o matrices, si es false usa costos default, si es true usa las tablas
+bool usar_tablas = true;
 
 
 // función para convertir un carácter a su índice en la matriz de costos
@@ -236,6 +236,10 @@ int main(int argc, char* argv[]) {
     // Los strings son tomados desde los argumentos de línea de comandos
     string s1 = argv[1];
     string s2 = argv[2];
+
+    // si es un "0" es decir un string vacio lo cambiamos
+    if (s1 == "0") s1 = ""; 
+    if (s2 == "0") s2 = "";
 
     // Cargar las tablas y matrices como antes
     cargar_cost_insert("cost_insert.txt");

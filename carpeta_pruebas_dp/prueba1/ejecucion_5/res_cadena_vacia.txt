@@ -1,0 +1,1142 @@
+Palabras: , e
+Longitudes: S1=0 S2=1 S1+S2=1
+Distancia mínima de edición: 1
+Tiempo de ejecución (segundos): 2.515e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de e | Costo: 1
+--------------------------------------
+
+Palabras: , kc
+Longitudes: S1=0 S2=2 S1+S2=2
+Distancia mínima de edición: 2
+Tiempo de ejecución (segundos): 1.202e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de k | Costo: 1
+Inserción en posición 1 de c | Costo: 1
+--------------------------------------
+
+Palabras: , csm
+Longitudes: S1=0 S2=3 S1+S2=3
+Distancia mínima de edición: 3
+Tiempo de ejecución (segundos): 8.12e-07
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de c | Costo: 1
+Inserción en posición 1 de s | Costo: 1
+Inserción en posición 2 de m | Costo: 1
+--------------------------------------
+
+Palabras: , umju
+Longitudes: S1=0 S2=4 S1+S2=4
+Distancia mínima de edición: 4
+Tiempo de ejecución (segundos): 8.22e-07
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de u | Costo: 1
+Inserción en posición 1 de m | Costo: 1
+Inserción en posición 2 de j | Costo: 1
+Inserción en posición 3 de u | Costo: 1
+--------------------------------------
+
+Palabras: , evlqp
+Longitudes: S1=0 S2=5 S1+S2=5
+Distancia mínima de edición: 5
+Tiempo de ejecución (segundos): 8.22e-07
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de e | Costo: 1
+Inserción en posición 1 de v | Costo: 1
+Inserción en posición 2 de l | Costo: 1
+Inserción en posición 3 de q | Costo: 1
+Inserción en posición 4 de p | Costo: 1
+--------------------------------------
+
+Palabras: , xeqfgi
+Longitudes: S1=0 S2=6 S1+S2=6
+Distancia mínima de edición: 6
+Tiempo de ejecución (segundos): 8.41e-07
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de x | Costo: 1
+Inserción en posición 1 de e | Costo: 1
+Inserción en posición 2 de q | Costo: 1
+Inserción en posición 3 de f | Costo: 1
+Inserción en posición 4 de g | Costo: 1
+Inserción en posición 5 de i | Costo: 1
+--------------------------------------
+
+Palabras: , jxoufpk
+Longitudes: S1=0 S2=7 S1+S2=7
+Distancia mínima de edición: 7
+Tiempo de ejecución (segundos): 8.42e-07
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de j | Costo: 1
+Inserción en posición 1 de x | Costo: 1
+Inserción en posición 2 de o | Costo: 1
+Inserción en posición 3 de u | Costo: 1
+Inserción en posición 4 de f | Costo: 1
+Inserción en posición 5 de p | Costo: 1
+Inserción en posición 6 de k | Costo: 1
+--------------------------------------
+
+Palabras: , voicymet
+Longitudes: S1=0 S2=8 S1+S2=8
+Distancia mínima de edición: 8
+Tiempo de ejecución (segundos): 8.82e-07
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de v | Costo: 1
+Inserción en posición 1 de o | Costo: 1
+Inserción en posición 2 de i | Costo: 1
+Inserción en posición 3 de c | Costo: 1
+Inserción en posición 4 de y | Costo: 1
+Inserción en posición 5 de m | Costo: 1
+Inserción en posición 6 de e | Costo: 1
+Inserción en posición 7 de t | Costo: 1
+--------------------------------------
+
+Palabras: , yzfkvlfhd
+Longitudes: S1=0 S2=9 S1+S2=9
+Distancia mínima de edición: 9
+Tiempo de ejecución (segundos): 9.02e-07
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de y | Costo: 1
+Inserción en posición 1 de z | Costo: 1
+Inserción en posición 2 de f | Costo: 1
+Inserción en posición 3 de k | Costo: 1
+Inserción en posición 4 de v | Costo: 1
+Inserción en posición 5 de l | Costo: 1
+Inserción en posición 6 de f | Costo: 1
+Inserción en posición 7 de h | Costo: 1
+Inserción en posición 8 de d | Costo: 1
+--------------------------------------
+
+Palabras: , wgjmlqvunl
+Longitudes: S1=0 S2=10 S1+S2=10
+Distancia mínima de edición: 10
+Tiempo de ejecución (segundos): 9.62e-07
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de w | Costo: 1
+Inserción en posición 1 de g | Costo: 1
+Inserción en posición 2 de j | Costo: 1
+Inserción en posición 3 de m | Costo: 1
+Inserción en posición 4 de l | Costo: 1
+Inserción en posición 5 de q | Costo: 1
+Inserción en posición 6 de v | Costo: 1
+Inserción en posición 7 de u | Costo: 1
+Inserción en posición 8 de n | Costo: 1
+Inserción en posición 9 de l | Costo: 1
+--------------------------------------
+
+Palabras: , qucasrkurxy
+Longitudes: S1=0 S2=11 S1+S2=11
+Distancia mínima de edición: 11
+Tiempo de ejecución (segundos): 1.072e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de q | Costo: 1
+Inserción en posición 1 de u | Costo: 1
+Inserción en posición 2 de c | Costo: 1
+Inserción en posición 3 de a | Costo: 1
+Inserción en posición 4 de s | Costo: 1
+Inserción en posición 5 de r | Costo: 1
+Inserción en posición 6 de k | Costo: 1
+Inserción en posición 7 de u | Costo: 1
+Inserción en posición 8 de r | Costo: 1
+Inserción en posición 9 de x | Costo: 1
+Inserción en posición 10 de y | Costo: 1
+--------------------------------------
+
+Palabras: , kxzrhvemejim
+Longitudes: S1=0 S2=12 S1+S2=12
+Distancia mínima de edición: 12
+Tiempo de ejecución (segundos): 2.274e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de k | Costo: 1
+Inserción en posición 1 de x | Costo: 1
+Inserción en posición 2 de z | Costo: 1
+Inserción en posición 3 de r | Costo: 1
+Inserción en posición 4 de h | Costo: 1
+Inserción en posición 5 de v | Costo: 1
+Inserción en posición 6 de e | Costo: 1
+Inserción en posición 7 de m | Costo: 1
+Inserción en posición 8 de e | Costo: 1
+Inserción en posición 9 de j | Costo: 1
+Inserción en posición 10 de i | Costo: 1
+Inserción en posición 11 de m | Costo: 1
+--------------------------------------
+
+Palabras: , txzluvahmvjon
+Longitudes: S1=0 S2=13 S1+S2=13
+Distancia mínima de edición: 13
+Tiempo de ejecución (segundos): 9.52e-07
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de t | Costo: 1
+Inserción en posición 1 de x | Costo: 1
+Inserción en posición 2 de z | Costo: 1
+Inserción en posición 3 de l | Costo: 1
+Inserción en posición 4 de u | Costo: 1
+Inserción en posición 5 de v | Costo: 1
+Inserción en posición 6 de a | Costo: 1
+Inserción en posición 7 de h | Costo: 1
+Inserción en posición 8 de m | Costo: 1
+Inserción en posición 9 de v | Costo: 1
+Inserción en posición 10 de j | Costo: 1
+Inserción en posición 11 de o | Costo: 1
+Inserción en posición 12 de n | Costo: 1
+--------------------------------------
+
+Palabras: , azjuwjetjydger
+Longitudes: S1=0 S2=14 S1+S2=14
+Distancia mínima de edición: 14
+Tiempo de ejecución (segundos): 9.12e-07
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de a | Costo: 1
+Inserción en posición 1 de z | Costo: 1
+Inserción en posición 2 de j | Costo: 1
+Inserción en posición 3 de u | Costo: 1
+Inserción en posición 4 de w | Costo: 1
+Inserción en posición 5 de j | Costo: 1
+Inserción en posición 6 de e | Costo: 1
+Inserción en posición 7 de t | Costo: 1
+Inserción en posición 8 de j | Costo: 1
+Inserción en posición 9 de y | Costo: 1
+Inserción en posición 10 de d | Costo: 1
+Inserción en posición 11 de g | Costo: 1
+Inserción en posición 12 de e | Costo: 1
+Inserción en posición 13 de r | Costo: 1
+--------------------------------------
+
+Palabras: , mocyjzxuvswcern
+Longitudes: S1=0 S2=15 S1+S2=15
+Distancia mínima de edición: 15
+Tiempo de ejecución (segundos): 8.92e-07
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de m | Costo: 1
+Inserción en posición 1 de o | Costo: 1
+Inserción en posición 2 de c | Costo: 1
+Inserción en posición 3 de y | Costo: 1
+Inserción en posición 4 de j | Costo: 1
+Inserción en posición 5 de z | Costo: 1
+Inserción en posición 6 de x | Costo: 1
+Inserción en posición 7 de u | Costo: 1
+Inserción en posición 8 de v | Costo: 1
+Inserción en posición 9 de s | Costo: 1
+Inserción en posición 10 de w | Costo: 1
+Inserción en posición 11 de c | Costo: 1
+Inserción en posición 12 de e | Costo: 1
+Inserción en posición 13 de r | Costo: 1
+Inserción en posición 14 de n | Costo: 1
+--------------------------------------
+
+Palabras: , vgourisbonkoqsti
+Longitudes: S1=0 S2=16 S1+S2=16
+Distancia mínima de edición: 16
+Tiempo de ejecución (segundos): 9.72e-07
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de v | Costo: 1
+Inserción en posición 1 de g | Costo: 1
+Inserción en posición 2 de o | Costo: 1
+Inserción en posición 3 de u | Costo: 1
+Inserción en posición 4 de r | Costo: 1
+Inserción en posición 5 de i | Costo: 1
+Inserción en posición 6 de s | Costo: 1
+Inserción en posición 7 de b | Costo: 1
+Inserción en posición 8 de o | Costo: 1
+Inserción en posición 9 de n | Costo: 1
+Inserción en posición 10 de k | Costo: 1
+Inserción en posición 11 de o | Costo: 1
+Inserción en posición 12 de q | Costo: 1
+Inserción en posición 13 de s | Costo: 1
+Inserción en posición 14 de t | Costo: 1
+Inserción en posición 15 de i | Costo: 1
+--------------------------------------
+
+Palabras: , ejmcunbqitmmagzxo
+Longitudes: S1=0 S2=17 S1+S2=17
+Distancia mínima de edición: 17
+Tiempo de ejecución (segundos): 9.52e-07
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de e | Costo: 1
+Inserción en posición 1 de j | Costo: 1
+Inserción en posición 2 de m | Costo: 1
+Inserción en posición 3 de c | Costo: 1
+Inserción en posición 4 de u | Costo: 1
+Inserción en posición 5 de n | Costo: 1
+Inserción en posición 6 de b | Costo: 1
+Inserción en posición 7 de q | Costo: 1
+Inserción en posición 8 de i | Costo: 1
+Inserción en posición 9 de t | Costo: 1
+Inserción en posición 10 de m | Costo: 1
+Inserción en posición 11 de m | Costo: 1
+Inserción en posición 12 de a | Costo: 1
+Inserción en posición 13 de g | Costo: 1
+Inserción en posición 14 de z | Costo: 1
+Inserción en posición 15 de x | Costo: 1
+Inserción en posición 16 de o | Costo: 1
+--------------------------------------
+
+Palabras: , prgzlhqytgrlbbpknt
+Longitudes: S1=0 S2=18 S1+S2=18
+Distancia mínima de edición: 18
+Tiempo de ejecución (segundos): 1.042e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de p | Costo: 1
+Inserción en posición 1 de r | Costo: 1
+Inserción en posición 2 de g | Costo: 1
+Inserción en posición 3 de z | Costo: 1
+Inserción en posición 4 de l | Costo: 1
+Inserción en posición 5 de h | Costo: 1
+Inserción en posición 6 de q | Costo: 1
+Inserción en posición 7 de y | Costo: 1
+Inserción en posición 8 de t | Costo: 1
+Inserción en posición 9 de g | Costo: 1
+Inserción en posición 10 de r | Costo: 1
+Inserción en posición 11 de l | Costo: 1
+Inserción en posición 12 de b | Costo: 1
+Inserción en posición 13 de b | Costo: 1
+Inserción en posición 14 de p | Costo: 1
+Inserción en posición 15 de k | Costo: 1
+Inserción en posición 16 de n | Costo: 1
+Inserción en posición 17 de t | Costo: 1
+--------------------------------------
+
+Palabras: , gawwkpjwrrxofnhloss
+Longitudes: S1=0 S2=19 S1+S2=19
+Distancia mínima de edición: 19
+Tiempo de ejecución (segundos): 1.011e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de g | Costo: 1
+Inserción en posición 1 de a | Costo: 1
+Inserción en posición 2 de w | Costo: 1
+Inserción en posición 3 de w | Costo: 1
+Inserción en posición 4 de k | Costo: 1
+Inserción en posición 5 de p | Costo: 1
+Inserción en posición 6 de j | Costo: 1
+Inserción en posición 7 de w | Costo: 1
+Inserción en posición 8 de r | Costo: 1
+Inserción en posición 9 de r | Costo: 1
+Inserción en posición 10 de x | Costo: 1
+Inserción en posición 11 de o | Costo: 1
+Inserción en posición 12 de f | Costo: 1
+Inserción en posición 13 de n | Costo: 1
+Inserción en posición 14 de h | Costo: 1
+Inserción en posición 15 de l | Costo: 1
+Inserción en posición 16 de o | Costo: 1
+Inserción en posición 17 de s | Costo: 1
+Inserción en posición 18 de s | Costo: 1
+--------------------------------------
+
+Palabras: , ernniyojpzykhygeiypg
+Longitudes: S1=0 S2=20 S1+S2=20
+Distancia mínima de edición: 20
+Tiempo de ejecución (segundos): 1.052e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de e | Costo: 1
+Inserción en posición 1 de r | Costo: 1
+Inserción en posición 2 de n | Costo: 1
+Inserción en posición 3 de n | Costo: 1
+Inserción en posición 4 de i | Costo: 1
+Inserción en posición 5 de y | Costo: 1
+Inserción en posición 6 de o | Costo: 1
+Inserción en posición 7 de j | Costo: 1
+Inserción en posición 8 de p | Costo: 1
+Inserción en posición 9 de z | Costo: 1
+Inserción en posición 10 de y | Costo: 1
+Inserción en posición 11 de k | Costo: 1
+Inserción en posición 12 de h | Costo: 1
+Inserción en posición 13 de y | Costo: 1
+Inserción en posición 14 de g | Costo: 1
+Inserción en posición 15 de e | Costo: 1
+Inserción en posición 16 de i | Costo: 1
+Inserción en posición 17 de y | Costo: 1
+Inserción en posición 18 de p | Costo: 1
+Inserción en posición 19 de g | Costo: 1
+--------------------------------------
+
+Palabras: , rgdilspxhirnbfalfpwxq
+Longitudes: S1=0 S2=21 S1+S2=21
+Distancia mínima de edición: 21
+Tiempo de ejecución (segundos): 1.002e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de r | Costo: 1
+Inserción en posición 1 de g | Costo: 1
+Inserción en posición 2 de d | Costo: 1
+Inserción en posición 3 de i | Costo: 1
+Inserción en posición 4 de l | Costo: 1
+Inserción en posición 5 de s | Costo: 1
+Inserción en posición 6 de p | Costo: 1
+Inserción en posición 7 de x | Costo: 1
+Inserción en posición 8 de h | Costo: 1
+Inserción en posición 9 de i | Costo: 1
+Inserción en posición 10 de r | Costo: 1
+Inserción en posición 11 de n | Costo: 1
+Inserción en posición 12 de b | Costo: 1
+Inserción en posición 13 de f | Costo: 1
+Inserción en posición 14 de a | Costo: 1
+Inserción en posición 15 de l | Costo: 1
+Inserción en posición 16 de f | Costo: 1
+Inserción en posición 17 de p | Costo: 1
+Inserción en posición 18 de w | Costo: 1
+Inserción en posición 19 de x | Costo: 1
+Inserción en posición 20 de q | Costo: 1
+--------------------------------------
+
+Palabras: , uhxuqdcosifannogflppee
+Longitudes: S1=0 S2=22 S1+S2=22
+Distancia mínima de edición: 22
+Tiempo de ejecución (segundos): 1.042e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de u | Costo: 1
+Inserción en posición 1 de h | Costo: 1
+Inserción en posición 2 de x | Costo: 1
+Inserción en posición 3 de u | Costo: 1
+Inserción en posición 4 de q | Costo: 1
+Inserción en posición 5 de d | Costo: 1
+Inserción en posición 6 de c | Costo: 1
+Inserción en posición 7 de o | Costo: 1
+Inserción en posición 8 de s | Costo: 1
+Inserción en posición 9 de i | Costo: 1
+Inserción en posición 10 de f | Costo: 1
+Inserción en posición 11 de a | Costo: 1
+Inserción en posición 12 de n | Costo: 1
+Inserción en posición 13 de n | Costo: 1
+Inserción en posición 14 de o | Costo: 1
+Inserción en posición 15 de g | Costo: 1
+Inserción en posición 16 de f | Costo: 1
+Inserción en posición 17 de l | Costo: 1
+Inserción en posición 18 de p | Costo: 1
+Inserción en posición 19 de p | Costo: 1
+Inserción en posición 20 de e | Costo: 1
+Inserción en posición 21 de e | Costo: 1
+--------------------------------------
+
+Palabras: , qlhdrwzqovxnpnrtdlblmqa
+Longitudes: S1=0 S2=23 S1+S2=23
+Distancia mínima de edición: 23
+Tiempo de ejecución (segundos): 1.032e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de q | Costo: 1
+Inserción en posición 1 de l | Costo: 1
+Inserción en posición 2 de h | Costo: 1
+Inserción en posición 3 de d | Costo: 1
+Inserción en posición 4 de r | Costo: 1
+Inserción en posición 5 de w | Costo: 1
+Inserción en posición 6 de z | Costo: 1
+Inserción en posición 7 de q | Costo: 1
+Inserción en posición 8 de o | Costo: 1
+Inserción en posición 9 de v | Costo: 1
+Inserción en posición 10 de x | Costo: 1
+Inserción en posición 11 de n | Costo: 1
+Inserción en posición 12 de p | Costo: 1
+Inserción en posición 13 de n | Costo: 1
+Inserción en posición 14 de r | Costo: 1
+Inserción en posición 15 de t | Costo: 1
+Inserción en posición 16 de d | Costo: 1
+Inserción en posición 17 de l | Costo: 1
+Inserción en posición 18 de b | Costo: 1
+Inserción en posición 19 de l | Costo: 1
+Inserción en posición 20 de m | Costo: 1
+Inserción en posición 21 de q | Costo: 1
+Inserción en posición 22 de a | Costo: 1
+--------------------------------------
+
+Palabras: , awfnlutsmhzpyxqqlnnacdrx
+Longitudes: S1=0 S2=24 S1+S2=24
+Distancia mínima de edición: 24
+Tiempo de ejecución (segundos): 1.072e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de a | Costo: 1
+Inserción en posición 1 de w | Costo: 1
+Inserción en posición 2 de f | Costo: 1
+Inserción en posición 3 de n | Costo: 1
+Inserción en posición 4 de l | Costo: 1
+Inserción en posición 5 de u | Costo: 1
+Inserción en posición 6 de t | Costo: 1
+Inserción en posición 7 de s | Costo: 1
+Inserción en posición 8 de m | Costo: 1
+Inserción en posición 9 de h | Costo: 1
+Inserción en posición 10 de z | Costo: 1
+Inserción en posición 11 de p | Costo: 1
+Inserción en posición 12 de y | Costo: 1
+Inserción en posición 13 de x | Costo: 1
+Inserción en posición 14 de q | Costo: 1
+Inserción en posición 15 de q | Costo: 1
+Inserción en posición 16 de l | Costo: 1
+Inserción en posición 17 de n | Costo: 1
+Inserción en posición 18 de n | Costo: 1
+Inserción en posición 19 de a | Costo: 1
+Inserción en posición 20 de c | Costo: 1
+Inserción en posición 21 de d | Costo: 1
+Inserción en posición 22 de r | Costo: 1
+Inserción en posición 23 de x | Costo: 1
+--------------------------------------
+
+Palabras: , ifattrwvnbkbydtkksckpuaci
+Longitudes: S1=0 S2=25 S1+S2=25
+Distancia mínima de edición: 25
+Tiempo de ejecución (segundos): 1.042e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de i | Costo: 1
+Inserción en posición 1 de f | Costo: 1
+Inserción en posición 2 de a | Costo: 1
+Inserción en posición 3 de t | Costo: 1
+Inserción en posición 4 de t | Costo: 1
+Inserción en posición 5 de r | Costo: 1
+Inserción en posición 6 de w | Costo: 1
+Inserción en posición 7 de v | Costo: 1
+Inserción en posición 8 de n | Costo: 1
+Inserción en posición 9 de b | Costo: 1
+Inserción en posición 10 de k | Costo: 1
+Inserción en posición 11 de b | Costo: 1
+Inserción en posición 12 de y | Costo: 1
+Inserción en posición 13 de d | Costo: 1
+Inserción en posición 14 de t | Costo: 1
+Inserción en posición 15 de k | Costo: 1
+Inserción en posición 16 de k | Costo: 1
+Inserción en posición 17 de s | Costo: 1
+Inserción en posición 18 de c | Costo: 1
+Inserción en posición 19 de k | Costo: 1
+Inserción en posición 20 de p | Costo: 1
+Inserción en posición 21 de u | Costo: 1
+Inserción en posición 22 de a | Costo: 1
+Inserción en posición 23 de c | Costo: 1
+Inserción en posición 24 de i | Costo: 1
+--------------------------------------
+
+Palabras: , qcmvwkfbkbwbxrraduygnlthnf
+Longitudes: S1=0 S2=26 S1+S2=26
+Distancia mínima de edición: 26
+Tiempo de ejecución (segundos): 1.102e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de q | Costo: 1
+Inserción en posición 1 de c | Costo: 1
+Inserción en posición 2 de m | Costo: 1
+Inserción en posición 3 de v | Costo: 1
+Inserción en posición 4 de w | Costo: 1
+Inserción en posición 5 de k | Costo: 1
+Inserción en posición 6 de f | Costo: 1
+Inserción en posición 7 de b | Costo: 1
+Inserción en posición 8 de k | Costo: 1
+Inserción en posición 9 de b | Costo: 1
+Inserción en posición 10 de w | Costo: 1
+Inserción en posición 11 de b | Costo: 1
+Inserción en posición 12 de x | Costo: 1
+Inserción en posición 13 de r | Costo: 1
+Inserción en posición 14 de r | Costo: 1
+Inserción en posición 15 de a | Costo: 1
+Inserción en posición 16 de d | Costo: 1
+Inserción en posición 17 de u | Costo: 1
+Inserción en posición 18 de y | Costo: 1
+Inserción en posición 19 de g | Costo: 1
+Inserción en posición 20 de n | Costo: 1
+Inserción en posición 21 de l | Costo: 1
+Inserción en posición 22 de t | Costo: 1
+Inserción en posición 23 de h | Costo: 1
+Inserción en posición 24 de n | Costo: 1
+Inserción en posición 25 de f | Costo: 1
+--------------------------------------
+
+Palabras: , yjiaraeexcqcfadbecuxdxrbgem
+Longitudes: S1=0 S2=27 S1+S2=27
+Distancia mínima de edición: 27
+Tiempo de ejecución (segundos): 1.162e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de y | Costo: 1
+Inserción en posición 1 de j | Costo: 1
+Inserción en posición 2 de i | Costo: 1
+Inserción en posición 3 de a | Costo: 1
+Inserción en posición 4 de r | Costo: 1
+Inserción en posición 5 de a | Costo: 1
+Inserción en posición 6 de e | Costo: 1
+Inserción en posición 7 de e | Costo: 1
+Inserción en posición 8 de x | Costo: 1
+Inserción en posición 9 de c | Costo: 1
+Inserción en posición 10 de q | Costo: 1
+Inserción en posición 11 de c | Costo: 1
+Inserción en posición 12 de f | Costo: 1
+Inserción en posición 13 de a | Costo: 1
+Inserción en posición 14 de d | Costo: 1
+Inserción en posición 15 de b | Costo: 1
+Inserción en posición 16 de e | Costo: 1
+Inserción en posición 17 de c | Costo: 1
+Inserción en posición 18 de u | Costo: 1
+Inserción en posición 19 de x | Costo: 1
+Inserción en posición 20 de d | Costo: 1
+Inserción en posición 21 de x | Costo: 1
+Inserción en posición 22 de r | Costo: 1
+Inserción en posición 23 de b | Costo: 1
+Inserción en posición 24 de g | Costo: 1
+Inserción en posición 25 de e | Costo: 1
+Inserción en posición 26 de m | Costo: 1
+--------------------------------------
+
+Palabras: , bnbgllqnestkpwaubdxfjczgfxxi
+Longitudes: S1=0 S2=28 S1+S2=28
+Distancia mínima de edición: 28
+Tiempo de ejecución (segundos): 1.062e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de b | Costo: 1
+Inserción en posición 1 de n | Costo: 1
+Inserción en posición 2 de b | Costo: 1
+Inserción en posición 3 de g | Costo: 1
+Inserción en posición 4 de l | Costo: 1
+Inserción en posición 5 de l | Costo: 1
+Inserción en posición 6 de q | Costo: 1
+Inserción en posición 7 de n | Costo: 1
+Inserción en posición 8 de e | Costo: 1
+Inserción en posición 9 de s | Costo: 1
+Inserción en posición 10 de t | Costo: 1
+Inserción en posición 11 de k | Costo: 1
+Inserción en posición 12 de p | Costo: 1
+Inserción en posición 13 de w | Costo: 1
+Inserción en posición 14 de a | Costo: 1
+Inserción en posición 15 de u | Costo: 1
+Inserción en posición 16 de b | Costo: 1
+Inserción en posición 17 de d | Costo: 1
+Inserción en posición 18 de x | Costo: 1
+Inserción en posición 19 de f | Costo: 1
+Inserción en posición 20 de j | Costo: 1
+Inserción en posición 21 de c | Costo: 1
+Inserción en posición 22 de z | Costo: 1
+Inserción en posición 23 de g | Costo: 1
+Inserción en posición 24 de f | Costo: 1
+Inserción en posición 25 de x | Costo: 1
+Inserción en posición 26 de x | Costo: 1
+Inserción en posición 27 de i | Costo: 1
+--------------------------------------
+
+Palabras: , ddveqymdlfssxlcnjfjniistkrzpo
+Longitudes: S1=0 S2=29 S1+S2=29
+Distancia mínima de edición: 29
+Tiempo de ejecución (segundos): 1.072e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de d | Costo: 1
+Inserción en posición 1 de d | Costo: 1
+Inserción en posición 2 de v | Costo: 1
+Inserción en posición 3 de e | Costo: 1
+Inserción en posición 4 de q | Costo: 1
+Inserción en posición 5 de y | Costo: 1
+Inserción en posición 6 de m | Costo: 1
+Inserción en posición 7 de d | Costo: 1
+Inserción en posición 8 de l | Costo: 1
+Inserción en posición 9 de f | Costo: 1
+Inserción en posición 10 de s | Costo: 1
+Inserción en posición 11 de s | Costo: 1
+Inserción en posición 12 de x | Costo: 1
+Inserción en posición 13 de l | Costo: 1
+Inserción en posición 14 de c | Costo: 1
+Inserción en posición 15 de n | Costo: 1
+Inserción en posición 16 de j | Costo: 1
+Inserción en posición 17 de f | Costo: 1
+Inserción en posición 18 de j | Costo: 1
+Inserción en posición 19 de n | Costo: 1
+Inserción en posición 20 de i | Costo: 1
+Inserción en posición 21 de i | Costo: 1
+Inserción en posición 22 de s | Costo: 1
+Inserción en posición 23 de t | Costo: 1
+Inserción en posición 24 de k | Costo: 1
+Inserción en posición 25 de r | Costo: 1
+Inserción en posición 26 de z | Costo: 1
+Inserción en posición 27 de p | Costo: 1
+Inserción en posición 28 de o | Costo: 1
+--------------------------------------
+
+Palabras: , wytzvzrvoujtmbqzdflkoysxqljhmz
+Longitudes: S1=0 S2=30 S1+S2=30
+Distancia mínima de edición: 30
+Tiempo de ejecución (segundos): 1.152e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de w | Costo: 1
+Inserción en posición 1 de y | Costo: 1
+Inserción en posición 2 de t | Costo: 1
+Inserción en posición 3 de z | Costo: 1
+Inserción en posición 4 de v | Costo: 1
+Inserción en posición 5 de z | Costo: 1
+Inserción en posición 6 de r | Costo: 1
+Inserción en posición 7 de v | Costo: 1
+Inserción en posición 8 de o | Costo: 1
+Inserción en posición 9 de u | Costo: 1
+Inserción en posición 10 de j | Costo: 1
+Inserción en posición 11 de t | Costo: 1
+Inserción en posición 12 de m | Costo: 1
+Inserción en posición 13 de b | Costo: 1
+Inserción en posición 14 de q | Costo: 1
+Inserción en posición 15 de z | Costo: 1
+Inserción en posición 16 de d | Costo: 1
+Inserción en posición 17 de f | Costo: 1
+Inserción en posición 18 de l | Costo: 1
+Inserción en posición 19 de k | Costo: 1
+Inserción en posición 20 de o | Costo: 1
+Inserción en posición 21 de y | Costo: 1
+Inserción en posición 22 de s | Costo: 1
+Inserción en posición 23 de x | Costo: 1
+Inserción en posición 24 de q | Costo: 1
+Inserción en posición 25 de l | Costo: 1
+Inserción en posición 26 de j | Costo: 1
+Inserción en posición 27 de h | Costo: 1
+Inserción en posición 28 de m | Costo: 1
+Inserción en posición 29 de z | Costo: 1
+--------------------------------------
+
+Palabras: , yiztjwtarhuacibukhavrqtmpjzbsma
+Longitudes: S1=0 S2=31 S1+S2=31
+Distancia mínima de edición: 31
+Tiempo de ejecución (segundos): 3.537e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de y | Costo: 1
+Inserción en posición 1 de i | Costo: 1
+Inserción en posición 2 de z | Costo: 1
+Inserción en posición 3 de t | Costo: 1
+Inserción en posición 4 de j | Costo: 1
+Inserción en posición 5 de w | Costo: 1
+Inserción en posición 6 de t | Costo: 1
+Inserción en posición 7 de a | Costo: 1
+Inserción en posición 8 de r | Costo: 1
+Inserción en posición 9 de h | Costo: 1
+Inserción en posición 10 de u | Costo: 1
+Inserción en posición 11 de a | Costo: 1
+Inserción en posición 12 de c | Costo: 1
+Inserción en posición 13 de i | Costo: 1
+Inserción en posición 14 de b | Costo: 1
+Inserción en posición 15 de u | Costo: 1
+Inserción en posición 16 de k | Costo: 1
+Inserción en posición 17 de h | Costo: 1
+Inserción en posición 18 de a | Costo: 1
+Inserción en posición 19 de v | Costo: 1
+Inserción en posición 20 de r | Costo: 1
+Inserción en posición 21 de q | Costo: 1
+Inserción en posición 22 de t | Costo: 1
+Inserción en posición 23 de m | Costo: 1
+Inserción en posición 24 de p | Costo: 1
+Inserción en posición 25 de j | Costo: 1
+Inserción en posición 26 de z | Costo: 1
+Inserción en posición 27 de b | Costo: 1
+Inserción en posición 28 de s | Costo: 1
+Inserción en posición 29 de m | Costo: 1
+Inserción en posición 30 de a | Costo: 1
+--------------------------------------
+
+Palabras: , qubmexfgoobrqjskvbmqtfjhwugxnszf
+Longitudes: S1=0 S2=32 S1+S2=32
+Distancia mínima de edición: 32
+Tiempo de ejecución (segundos): 1.093e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de q | Costo: 1
+Inserción en posición 1 de u | Costo: 1
+Inserción en posición 2 de b | Costo: 1
+Inserción en posición 3 de m | Costo: 1
+Inserción en posición 4 de e | Costo: 1
+Inserción en posición 5 de x | Costo: 1
+Inserción en posición 6 de f | Costo: 1
+Inserción en posición 7 de g | Costo: 1
+Inserción en posición 8 de o | Costo: 1
+Inserción en posición 9 de o | Costo: 1
+Inserción en posición 10 de b | Costo: 1
+Inserción en posición 11 de r | Costo: 1
+Inserción en posición 12 de q | Costo: 1
+Inserción en posición 13 de j | Costo: 1
+Inserción en posición 14 de s | Costo: 1
+Inserción en posición 15 de k | Costo: 1
+Inserción en posición 16 de v | Costo: 1
+Inserción en posición 17 de b | Costo: 1
+Inserción en posición 18 de m | Costo: 1
+Inserción en posición 19 de q | Costo: 1
+Inserción en posición 20 de t | Costo: 1
+Inserción en posición 21 de f | Costo: 1
+Inserción en posición 22 de j | Costo: 1
+Inserción en posición 23 de h | Costo: 1
+Inserción en posición 24 de w | Costo: 1
+Inserción en posición 25 de u | Costo: 1
+Inserción en posición 26 de g | Costo: 1
+Inserción en posición 27 de x | Costo: 1
+Inserción en posición 28 de n | Costo: 1
+Inserción en posición 29 de s | Costo: 1
+Inserción en posición 30 de z | Costo: 1
+Inserción en posición 31 de f | Costo: 1
+--------------------------------------
+
+Palabras: , pcrvzybqmeheqbrlffcyklfjiniviicxk
+Longitudes: S1=0 S2=33 S1+S2=33
+Distancia mínima de edición: 33
+Tiempo de ejecución (segundos): 1.183e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de p | Costo: 1
+Inserción en posición 1 de c | Costo: 1
+Inserción en posición 2 de r | Costo: 1
+Inserción en posición 3 de v | Costo: 1
+Inserción en posición 4 de z | Costo: 1
+Inserción en posición 5 de y | Costo: 1
+Inserción en posición 6 de b | Costo: 1
+Inserción en posición 7 de q | Costo: 1
+Inserción en posición 8 de m | Costo: 1
+Inserción en posición 9 de e | Costo: 1
+Inserción en posición 10 de h | Costo: 1
+Inserción en posición 11 de e | Costo: 1
+Inserción en posición 12 de q | Costo: 1
+Inserción en posición 13 de b | Costo: 1
+Inserción en posición 14 de r | Costo: 1
+Inserción en posición 15 de l | Costo: 1
+Inserción en posición 16 de f | Costo: 1
+Inserción en posición 17 de f | Costo: 1
+Inserción en posición 18 de c | Costo: 1
+Inserción en posición 19 de y | Costo: 1
+Inserción en posición 20 de k | Costo: 1
+Inserción en posición 21 de l | Costo: 1
+Inserción en posición 22 de f | Costo: 1
+Inserción en posición 23 de j | Costo: 1
+Inserción en posición 24 de i | Costo: 1
+Inserción en posición 25 de n | Costo: 1
+Inserción en posición 26 de i | Costo: 1
+Inserción en posición 27 de v | Costo: 1
+Inserción en posición 28 de i | Costo: 1
+Inserción en posición 29 de i | Costo: 1
+Inserción en posición 30 de c | Costo: 1
+Inserción en posición 31 de x | Costo: 1
+Inserción en posición 32 de k | Costo: 1
+--------------------------------------
+
+Palabras: , wumuxcjclnsogdtmhrwvyhdoqawacvmyry
+Longitudes: S1=0 S2=34 S1+S2=34
+Distancia mínima de edición: 34
+Tiempo de ejecución (segundos): 1.183e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de w | Costo: 1
+Inserción en posición 1 de u | Costo: 1
+Inserción en posición 2 de m | Costo: 1
+Inserción en posición 3 de u | Costo: 1
+Inserción en posición 4 de x | Costo: 1
+Inserción en posición 5 de c | Costo: 1
+Inserción en posición 6 de j | Costo: 1
+Inserción en posición 7 de c | Costo: 1
+Inserción en posición 8 de l | Costo: 1
+Inserción en posición 9 de n | Costo: 1
+Inserción en posición 10 de s | Costo: 1
+Inserción en posición 11 de o | Costo: 1
+Inserción en posición 12 de g | Costo: 1
+Inserción en posición 13 de d | Costo: 1
+Inserción en posición 14 de t | Costo: 1
+Inserción en posición 15 de m | Costo: 1
+Inserción en posición 16 de h | Costo: 1
+Inserción en posición 17 de r | Costo: 1
+Inserción en posición 18 de w | Costo: 1
+Inserción en posición 19 de v | Costo: 1
+Inserción en posición 20 de y | Costo: 1
+Inserción en posición 21 de h | Costo: 1
+Inserción en posición 22 de d | Costo: 1
+Inserción en posición 23 de o | Costo: 1
+Inserción en posición 24 de q | Costo: 1
+Inserción en posición 25 de a | Costo: 1
+Inserción en posición 26 de w | Costo: 1
+Inserción en posición 27 de a | Costo: 1
+Inserción en posición 28 de c | Costo: 1
+Inserción en posición 29 de v | Costo: 1
+Inserción en posición 30 de m | Costo: 1
+Inserción en posición 31 de y | Costo: 1
+Inserción en posición 32 de r | Costo: 1
+Inserción en posición 33 de y | Costo: 1
+--------------------------------------
+
+Palabras: , toceqnrkcyqxkxrisrsxfixbkaywapvvgzz
+Longitudes: S1=0 S2=35 S1+S2=35
+Distancia mínima de edición: 35
+Tiempo de ejecución (segundos): 1.413e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de t | Costo: 1
+Inserción en posición 1 de o | Costo: 1
+Inserción en posición 2 de c | Costo: 1
+Inserción en posición 3 de e | Costo: 1
+Inserción en posición 4 de q | Costo: 1
+Inserción en posición 5 de n | Costo: 1
+Inserción en posición 6 de r | Costo: 1
+Inserción en posición 7 de k | Costo: 1
+Inserción en posición 8 de c | Costo: 1
+Inserción en posición 9 de y | Costo: 1
+Inserción en posición 10 de q | Costo: 1
+Inserción en posición 11 de x | Costo: 1
+Inserción en posición 12 de k | Costo: 1
+Inserción en posición 13 de x | Costo: 1
+Inserción en posición 14 de r | Costo: 1
+Inserción en posición 15 de i | Costo: 1
+Inserción en posición 16 de s | Costo: 1
+Inserción en posición 17 de r | Costo: 1
+Inserción en posición 18 de s | Costo: 1
+Inserción en posición 19 de x | Costo: 1
+Inserción en posición 20 de f | Costo: 1
+Inserción en posición 21 de i | Costo: 1
+Inserción en posición 22 de x | Costo: 1
+Inserción en posición 23 de b | Costo: 1
+Inserción en posición 24 de k | Costo: 1
+Inserción en posición 25 de a | Costo: 1
+Inserción en posición 26 de y | Costo: 1
+Inserción en posición 27 de w | Costo: 1
+Inserción en posición 28 de a | Costo: 1
+Inserción en posición 29 de p | Costo: 1
+Inserción en posición 30 de v | Costo: 1
+Inserción en posición 31 de v | Costo: 1
+Inserción en posición 32 de g | Costo: 1
+Inserción en posición 33 de z | Costo: 1
+Inserción en posición 34 de z | Costo: 1
+--------------------------------------
+
+Palabras: , yprjtrbqdahnvzfsepqizsiysavogunejgpc
+Longitudes: S1=0 S2=36 S1+S2=36
+Distancia mínima de edición: 36
+Tiempo de ejecución (segundos): 1.202e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de y | Costo: 1
+Inserción en posición 1 de p | Costo: 1
+Inserción en posición 2 de r | Costo: 1
+Inserción en posición 3 de j | Costo: 1
+Inserción en posición 4 de t | Costo: 1
+Inserción en posición 5 de r | Costo: 1
+Inserción en posición 6 de b | Costo: 1
+Inserción en posición 7 de q | Costo: 1
+Inserción en posición 8 de d | Costo: 1
+Inserción en posición 9 de a | Costo: 1
+Inserción en posición 10 de h | Costo: 1
+Inserción en posición 11 de n | Costo: 1
+Inserción en posición 12 de v | Costo: 1
+Inserción en posición 13 de z | Costo: 1
+Inserción en posición 14 de f | Costo: 1
+Inserción en posición 15 de s | Costo: 1
+Inserción en posición 16 de e | Costo: 1
+Inserción en posición 17 de p | Costo: 1
+Inserción en posición 18 de q | Costo: 1
+Inserción en posición 19 de i | Costo: 1
+Inserción en posición 20 de z | Costo: 1
+Inserción en posición 21 de s | Costo: 1
+Inserción en posición 22 de i | Costo: 1
+Inserción en posición 23 de y | Costo: 1
+Inserción en posición 24 de s | Costo: 1
+Inserción en posición 25 de a | Costo: 1
+Inserción en posición 26 de v | Costo: 1
+Inserción en posición 27 de o | Costo: 1
+Inserción en posición 28 de g | Costo: 1
+Inserción en posición 29 de u | Costo: 1
+Inserción en posición 30 de n | Costo: 1
+Inserción en posición 31 de e | Costo: 1
+Inserción en posición 32 de j | Costo: 1
+Inserción en posición 33 de g | Costo: 1
+Inserción en posición 34 de p | Costo: 1
+Inserción en posición 35 de c | Costo: 1
+--------------------------------------
+
+Palabras: , zqvcrcsmbzgipwsqqaojalzggonrvcuwvpzmt
+Longitudes: S1=0 S2=37 S1+S2=37
+Distancia mínima de edición: 37
+Tiempo de ejecución (segundos): 1.243e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de z | Costo: 1
+Inserción en posición 1 de q | Costo: 1
+Inserción en posición 2 de v | Costo: 1
+Inserción en posición 3 de c | Costo: 1
+Inserción en posición 4 de r | Costo: 1
+Inserción en posición 5 de c | Costo: 1
+Inserción en posición 6 de s | Costo: 1
+Inserción en posición 7 de m | Costo: 1
+Inserción en posición 8 de b | Costo: 1
+Inserción en posición 9 de z | Costo: 1
+Inserción en posición 10 de g | Costo: 1
+Inserción en posición 11 de i | Costo: 1
+Inserción en posición 12 de p | Costo: 1
+Inserción en posición 13 de w | Costo: 1
+Inserción en posición 14 de s | Costo: 1
+Inserción en posición 15 de q | Costo: 1
+Inserción en posición 16 de q | Costo: 1
+Inserción en posición 17 de a | Costo: 1
+Inserción en posición 18 de o | Costo: 1
+Inserción en posición 19 de j | Costo: 1
+Inserción en posición 20 de a | Costo: 1
+Inserción en posición 21 de l | Costo: 1
+Inserción en posición 22 de z | Costo: 1
+Inserción en posición 23 de g | Costo: 1
+Inserción en posición 24 de g | Costo: 1
+Inserción en posición 25 de o | Costo: 1
+Inserción en posición 26 de n | Costo: 1
+Inserción en posición 27 de r | Costo: 1
+Inserción en posición 28 de v | Costo: 1
+Inserción en posición 29 de c | Costo: 1
+Inserción en posición 30 de u | Costo: 1
+Inserción en posición 31 de w | Costo: 1
+Inserción en posición 32 de v | Costo: 1
+Inserción en posición 33 de p | Costo: 1
+Inserción en posición 34 de z | Costo: 1
+Inserción en posición 35 de m | Costo: 1
+Inserción en posición 36 de t | Costo: 1
+--------------------------------------
+
+Palabras: , taxsgfjfxcvzsgaehikwvbtyxptoqhkljhepmp
+Longitudes: S1=0 S2=38 S1+S2=38
+Distancia mínima de edición: 38
+Tiempo de ejecución (segundos): 1.252e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de t | Costo: 1
+Inserción en posición 1 de a | Costo: 1
+Inserción en posición 2 de x | Costo: 1
+Inserción en posición 3 de s | Costo: 1
+Inserción en posición 4 de g | Costo: 1
+Inserción en posición 5 de f | Costo: 1
+Inserción en posición 6 de j | Costo: 1
+Inserción en posición 7 de f | Costo: 1
+Inserción en posición 8 de x | Costo: 1
+Inserción en posición 9 de c | Costo: 1
+Inserción en posición 10 de v | Costo: 1
+Inserción en posición 11 de z | Costo: 1
+Inserción en posición 12 de s | Costo: 1
+Inserción en posición 13 de g | Costo: 1
+Inserción en posición 14 de a | Costo: 1
+Inserción en posición 15 de e | Costo: 1
+Inserción en posición 16 de h | Costo: 1
+Inserción en posición 17 de i | Costo: 1
+Inserción en posición 18 de k | Costo: 1
+Inserción en posición 19 de w | Costo: 1
+Inserción en posición 20 de v | Costo: 1
+Inserción en posición 21 de b | Costo: 1
+Inserción en posición 22 de t | Costo: 1
+Inserción en posición 23 de y | Costo: 1
+Inserción en posición 24 de x | Costo: 1
+Inserción en posición 25 de p | Costo: 1
+Inserción en posición 26 de t | Costo: 1
+Inserción en posición 27 de o | Costo: 1
+Inserción en posición 28 de q | Costo: 1
+Inserción en posición 29 de h | Costo: 1
+Inserción en posición 30 de k | Costo: 1
+Inserción en posición 31 de l | Costo: 1
+Inserción en posición 32 de j | Costo: 1
+Inserción en posición 33 de h | Costo: 1
+Inserción en posición 34 de e | Costo: 1
+Inserción en posición 35 de p | Costo: 1
+Inserción en posición 36 de m | Costo: 1
+Inserción en posición 37 de p | Costo: 1
+--------------------------------------
+
+Palabras: , wltukmckqktciqfdofujvlqfwzmcrauplnjwzoi
+Longitudes: S1=0 S2=39 S1+S2=39
+Distancia mínima de edición: 39
+Tiempo de ejecución (segundos): 1.212e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de w | Costo: 1
+Inserción en posición 1 de l | Costo: 1
+Inserción en posición 2 de t | Costo: 1
+Inserción en posición 3 de u | Costo: 1
+Inserción en posición 4 de k | Costo: 1
+Inserción en posición 5 de m | Costo: 1
+Inserción en posición 6 de c | Costo: 1
+Inserción en posición 7 de k | Costo: 1
+Inserción en posición 8 de q | Costo: 1
+Inserción en posición 9 de k | Costo: 1
+Inserción en posición 10 de t | Costo: 1
+Inserción en posición 11 de c | Costo: 1
+Inserción en posición 12 de i | Costo: 1
+Inserción en posición 13 de q | Costo: 1
+Inserción en posición 14 de f | Costo: 1
+Inserción en posición 15 de d | Costo: 1
+Inserción en posición 16 de o | Costo: 1
+Inserción en posición 17 de f | Costo: 1
+Inserción en posición 18 de u | Costo: 1
+Inserción en posición 19 de j | Costo: 1
+Inserción en posición 20 de v | Costo: 1
+Inserción en posición 21 de l | Costo: 1
+Inserción en posición 22 de q | Costo: 1
+Inserción en posición 23 de f | Costo: 1
+Inserción en posición 24 de w | Costo: 1
+Inserción en posición 25 de z | Costo: 1
+Inserción en posición 26 de m | Costo: 1
+Inserción en posición 27 de c | Costo: 1
+Inserción en posición 28 de r | Costo: 1
+Inserción en posición 29 de a | Costo: 1
+Inserción en posición 30 de u | Costo: 1
+Inserción en posición 31 de p | Costo: 1
+Inserción en posición 32 de l | Costo: 1
+Inserción en posición 33 de n | Costo: 1
+Inserción en posición 34 de j | Costo: 1
+Inserción en posición 35 de w | Costo: 1
+Inserción en posición 36 de z | Costo: 1
+Inserción en posición 37 de o | Costo: 1
+Inserción en posición 38 de i | Costo: 1
+--------------------------------------
+
+Palabras: , radviubnkihufsmlrmzvfapundglcuuwuzrevutg
+Longitudes: S1=0 S2=40 S1+S2=40
+Distancia mínima de edición: 40
+Tiempo de ejecución (segundos): 1.252e-06
+Operaciones necesarias para la distancia mínima de edición:
+Inserción en posición 0 de r | Costo: 1
+Inserción en posición 1 de a | Costo: 1
+Inserción en posición 2 de d | Costo: 1
+Inserción en posición 3 de v | Costo: 1
+Inserción en posición 4 de i | Costo: 1
+Inserción en posición 5 de u | Costo: 1
+Inserción en posición 6 de b | Costo: 1
+Inserción en posición 7 de n | Costo: 1
+Inserción en posición 8 de k | Costo: 1
+Inserción en posición 9 de i | Costo: 1
+Inserción en posición 10 de h | Costo: 1
+Inserción en posición 11 de u | Costo: 1
+Inserción en posición 12 de f | Costo: 1
+Inserción en posición 13 de s | Costo: 1
+Inserción en posición 14 de m | Costo: 1
+Inserción en posición 15 de l | Costo: 1
+Inserción en posición 16 de r | Costo: 1
+Inserción en posición 17 de m | Costo: 1
+Inserción en posición 18 de z | Costo: 1
+Inserción en posición 19 de v | Costo: 1
+Inserción en posición 20 de f | Costo: 1
+Inserción en posición 21 de a | Costo: 1
+Inserción en posición 22 de p | Costo: 1
+Inserción en posición 23 de u | Costo: 1
+Inserción en posición 24 de n | Costo: 1
+Inserción en posición 25 de d | Costo: 1
+Inserción en posición 26 de g | Costo: 1
+Inserción en posición 27 de l | Costo: 1
+Inserción en posición 28 de c | Costo: 1
+Inserción en posición 29 de u | Costo: 1
+Inserción en posición 30 de u | Costo: 1
+Inserción en posición 31 de w | Costo: 1
+Inserción en posición 32 de u | Costo: 1
+Inserción en posición 33 de z | Costo: 1
+Inserción en posición 34 de r | Costo: 1
+Inserción en posición 35 de e | Costo: 1
+Inserción en posición 36 de v | Costo: 1
+Inserción en posición 37 de u | Costo: 1
+Inserción en posición 38 de t | Costo: 1
+Inserción en posición 39 de g | Costo: 1
+--------------------------------------
+
+Resumen de Longitudes y Tiempos de Ejecucion:
+longitud_S1 + longitudS2, tiempo_ejecucion[seg]
+( 1, 2.515e-06 )
+( 2, 1.202e-06 )
+( 3, 8.12e-07 )
+( 4, 8.22e-07 )
+( 5, 8.22e-07 )
+( 6, 8.41e-07 )
+( 7, 8.42e-07 )
+( 8, 8.82e-07 )
+( 9, 9.02e-07 )
+( 10, 9.62e-07 )
+( 11, 1.072e-06 )
+( 12, 2.274e-06 )
+( 13, 9.52e-07 )
+( 14, 9.12e-07 )
+( 15, 8.92e-07 )
+( 16, 9.72e-07 )
+( 17, 9.52e-07 )
+( 18, 1.042e-06 )
+( 19, 1.011e-06 )
+( 20, 1.052e-06 )
+( 21, 1.002e-06 )
+( 22, 1.042e-06 )
+( 23, 1.032e-06 )
+( 24, 1.072e-06 )
+( 25, 1.042e-06 )
+( 26, 1.102e-06 )
+( 27, 1.162e-06 )
+( 28, 1.062e-06 )
+( 29, 1.072e-06 )
+( 30, 1.152e-06 )
+( 31, 3.537e-06 )
+( 32, 1.093e-06 )
+( 33, 1.183e-06 )
+( 34, 1.183e-06 )
+( 35, 1.413e-06 )
+( 36, 1.202e-06 )
+( 37, 1.243e-06 )
+( 38, 1.252e-06 )
+( 39, 1.212e-06 )
+( 40, 1.252e-06 )

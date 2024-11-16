@@ -45,7 +45,7 @@ void generarCasosPruebaConStringVacio(int longitudMaxima, int incremento, const 
 
 // función para aplicar transposiciones adyacentes sistemáticamente a una cadena
 string aplicarTransposiciones(string cadena) {
-    for (int i = 0; i < cadena.length() - 1; i += 2) {
+    for (std::string::size_type i = 0; i < cadena.length() - 1; i += 2) {
         swap(cadena[i], cadena[i + 1]);
     }
     return cadena;
@@ -202,8 +202,8 @@ void generarCasosPruebaConOriginalYGaps(int longitudMaxima, int incremento, int 
 int main() {
     srand(static_cast<unsigned int>(time(0)));
 
-    int longitudMaxima = 5000;
-    int incremento = 250;
+    int longitudMaxima = 10;
+    int incremento = 1;
 
     string archivoAleatorios = "dataset_cadenas_aleatorias.txt";
     string archivoConVacio = "dataset_cadena_vacia.txt";

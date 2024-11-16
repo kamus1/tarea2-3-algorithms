@@ -1,47 +1,111 @@
-# tarea2-3-algorithms
-Benjamin Camus
+# tarea2-3 Algortimos y complejidad
+Benjamin Andrés Camus Valdés
 
 202173072-9
+
+## Uso
+Se puede utilizar Makefile para compilar todos los archivos para luego poder ser ejecutados, usar make clean para limpiar los archivos compilados.
 
 ## Requerimientos: 
 
 Para realizar mediciones de memoria se necesita tener instalado valgrind:
 
+```
 sudo apt-get update
 sudo apt-get install valgrind
+```
 
 ## Descripcion de los archivos .cpp
 
 ### distancia_edicion_DP.cpp
+Este código calcula la distancia de edicion extendida utilizando el enfoque de programación dinámica, considerando las operaciones: inserción, eliminación, sustitución y transposición. Este codigo utiliza costos variables para las 4 operaciones mencionadas, para cada una de las operaciones se leen los costos de archivos .txt explicados más abajo. Para utilizar los costos de los archivos .txt la variable global **usar_tablas=true** debe estar en true, de lo contrario se utilizaran los costos default. Este código tiene implementado la automatización de las realización de las pruebas de tiempo utilizando **chrono**, para realizar las pruebas se leen archivos .txt de distintos casos que contienen pares de 2 cadenas, para leer estos archivos y hacer las mediciones de tiempo la variable ( ubicada en main() ) **usar_salida_estandar = false** debe estar en false, de lo contrario se pedirán 2 cadenas por la terminal para realizar el calculo de la distancia de edición de manera indivudal. A su vez dentro de main existe el siguiente vector:
+```
+  // Archivos de entrada y nombres de archivos de salida
+  vector<pair<string, string>> archivos = {
+      {"datasets/dataset_cadena_vacia.txt", "res_cadena_vacia.txt"},
+      {"datasets/dataset_cadenas_aleatorias.txt", "res_cadena_aleatorias.txt"},
+      {"datasets/dataset_palindromos.txt", "res_cadenas_palindromos.txt"},
+      {"datasets/dataset_patrones_alternados.txt", "res_patrones_alternados.txt"},
+      {"datasets/dataset_transposicion.txt", "res_transposicion.txt"},
+      {"datasets/dataset_repeticiones.txt", "res_cadenas_con_repeticiones.txt"},
+      {"datasets/dataset_con_gaps.txt", "res_cadenas_con_gaps.txt"}
+  };
+```
+En este vector se pueden agregar o eliminar para que casos de prueba se quieren realizar las pruebas (esto solo si la variable usar_salida_estandar=false).
+
+Este código tambien guarda la ruta o la secuencia de operaciones que se realiza del calculo de la distancia de edicion, la secuencia para transformar un S1 en un S2. los resultados se guardan dentro de la carpeta **carpeta_pruebas_dp**, y cada vez que se ejecuta el código se guardan los resultados dentro de una carpeta *ejecucion_n* donde n es el número de la ejecucion del codigo, los resultados son guardados en archivos .txt con el formato res_nombre_del_caso.txt, como se puede ver en el vector de arriba.
+
+Si usar_salida_estandar = true, se piden 2 cadenas por la entrada estandar y se calcula la distancia de edicion, dando el resultado por la salida estándar.
 
 ### ditancia_edicion_BF.cpp
-
-### medidor_memoria_dp.cpp
-
-### medidor_memoria_bf.cpp
+Este código también calcula la distancia de edición pero utilizando el enfoque de fuerza bruta, en donde mediante recursión prueba las 4 operaciones, es por ello que tiene una complejidad de O(m*n), donde m es la longitud de S1 y n la lognitud de S2. Este código implementa las mismas funcionalidades que el anterior como para usar los costos variables o no, usar la salida estandar o no. Los resultados de este codigo son guardados en la carpeta **carpeta_pruebas_bf**.
 
 ### distancia_edicion_dp_memory.cpp
+Debido a que los codigos anterioires calculan la secuencia de las operaciones realizando operaciones y estructuras adicionales utilizan más memoria de la cual no debe ser medida, es por eso que existe este codigo, el cual es una simplificacion por así decirlo del codigo anterior para el calculo de la distancia de edición mediante el algoritmo de programación dinámica. Este código tanbién utiliza los costos variables al leerlos de archivos .txt, solamente no calcula la secuencia de las operaciones.
 
-### distancia_edicion_bf_memory.cpp
+### distancia_edicion_BF_memory.cpp
+Al igual que el código anterior, este no calcula la secuencia de operaciones realizados en el calculo de la distandia de edicion. Este código implementa el enfoque de fuerza bruta.
+
+### medidor_memoria_BF.cpp
+Este código se encarga de automatizar el proceso de la medición de memoria para el código **distancia_edicion_BF_memory.cpp**, para ello utiliza valgrind, leyendo el consumo de memoria total del programa. Este código lee los pares de strings de los .txt con los casos de prueba y se los pasa como parámtros al código de **distancia_edicion_BF_memory.cpp**, luego guarda los resultados de las mediciones de memoria en la carpeta **mediciones_memoria_bf**, dentro con una carpeta de nombre *ejecucion_n* donde n es el número de la ejecucion del codigo.
 
 
-### edicion_mod.cpp
+### medidor_memoria_DP.cpp
+Realiza lo mismo que el código anterior pero para el código de **distancia_edicion_dp_memory.cpp** y exporta los resultados de las mediciones de memoria en la carpeta **mediciones_memoria_dp**
 
-Solo es la estructura básica del algoritmo de la distancia de edición utilizando dp, este archivo fue usado solamente para hacer pruebas
+###calcular_promedios.cpp
+Este codigo se encuentra dentro de las carpetas **carpeta_pruebas_bf** y **carpeta_pruebas_bf**, lo que hace es calcular el promedio de los resultados obtenidos para cada carpeta de nombre *ejecucion_n*, luego exporta los resultados en el archivo promedios.txt.
+
+Ejemplo:
+
+ promedio res_cadena_aleatorias.txt:
+( 2, 5.893000e-06 )
+( 4, 1.415240e-05 )
+( 6, 6.164160e-05 )
+
+--------------------------------------
+promedio res_cadena_vacia.txt:
+( 1, 5.063400e-06 )
+( 2, 3.731000e-06 )
+( 3, 1.933400e-06 )
+
+--------------------------------------
+promedio res_cadenas_con_gaps.txt:
+( 1, 4.689000e-06 )
+( 2, 3.248200e-06 )
+( 3, 2.669200e-06 )
+
+--------------------------------------
+promedio res_cadenas_con_repeticiones.txt:
+( 2, 7.205400e-06 )
+( 4, 1.502040e-05 )
+( 6, 8.188300e-05 )
+
+--------------------------------------
 
 ### datasets/gen_datasets.cpp
+Este código es el encargado de generar los casos de prueba, segun los siguientes parámetros:
+
+    int longitudMaxima = 10;
+    int incremento = 1;
+    ...
+    int numGaps = 3;
+    int tamanoMaxGap = 2;
+
+Estos parámetros están ubicados en main(), longitudMaxima define cual es el máximo de la longitud que una cadena puede tener en los casos de prueba, incremento dice en cuanto se va a ir incrementado la cadena, en este caso se va a ir incrementando de a un caracter. 
+numGaps es utilizado para el caso donde hay una cadena que tiene gaps o espacios vacios entre medio, esta variable nos indica cuantos gaps va a tener la cadena S1, y el tamanoMaxGap dice cual va a ser el tamaño máximo que puede tener ese gap.
 
 ## Descripcion de los datasets y archivos .txt
 
 Dentro de la carpeta /datasets se encuentran 7 archivos .txt con los casos de prueba generados por el código gen_datasets.cpp:
 
-- datasets_cadena_vacia.txt
-- dataset_cadenas_aleatorias
-- dataset_con_gaps
-- dataset_palindromos
-- dataset_patrones_alternados
-- dataset_repeticiones
-- dataset_transposicion
+- dataset_cadena_vacia.txt
+- dataset_cadenas_aleatorias.txt
+- dataset_con_gaps.txt
+- dataset_palindromos.txt
+- dataset_patrones_alternados.txt
+- dataset_repeticiones.txt
+- dataset_transposicion.txt
 
 ### Archivos .txt con los costos para realizar operaciones
  - cost_delete.txt: Se considera como una fila con los costos para eliminar cada una de las 26 letras del alfabeto inglés.
@@ -57,10 +121,16 @@ Dentro de la carpeta /datasets se encuentran 7 archivos .txt con los casos de pr
 
 ### carpeta_pruebas_bf
 Aqui por cada ejecucion del archivo distancia_edicion_BF.cpp se guardan las pruebas realizadas para caso de prueba en archivos .txt
+Las pruebas se guardan con nombre *ejecucion_n* donde n es el número de la ejecucion del codigo.
 
 ### carpeta_pruebas_bf
 Aqui por cada ejecucion del archivo distancia_edicion_DP.cpp se guardan las pruebas realizadas para caso de prueba en archivos .txt
+Las pruebas se guardan con nombre *ejecucion_n* donde n es el número de la ejecucion del codigo.
 
 ### mediciones_memoria_bf
+Aqui por cada ejecucion del archivo medidor_memoria_BF.cpp se guardan las pruebas realizadas para caso de prueba en archivos .txt
+Las pruebas se guardan con nombre *ejecucion_n* donde n es el número de la ejecucion del codigo.
 
 ### mediciones_memoria_dp
+Aqui por cada ejecucion del archivo medidor_memoria_DP.cpp se guardan las pruebas realizadas para caso de prueba en archivos .txt
+Las pruebas se guardan con nombre *ejecucion_n* donde n es el número de la ejecucion del codigo.
